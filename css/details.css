@@ -1,0 +1,630 @@
+.detail {
+	width: 100%;
+	height: auto;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+#detail_main {
+	position: relative;
+	width: 1200px;
+	margin: 60px auto 0;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+/*商品标题*/
+.nav_tilte {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #e8e8e8;
+}
+.nav_tilte_con {
+	width: 1200px;
+	height: 32px;
+	margin: 0px auto;
+	font-size: 12px;
+	color: #535353;
+}
+
+/*商品左边div*/
+#detail_left {
+	width: 618px;
+	float: left;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	margin-top: 0;
+}
+.absolute {
+	position: absolute;
+	z-index: 98;
+}
+.winpic {
+	width: 520px;
+	height: 520px;
+}
+#detail_playPicture {
+	position: relative;
+	overflow: hidden;
+	width: 530px;
+	height: 88px;
+	margin-top: 20px;
+}
+#detail_left .lunbo {
+	width: 520px;
+	height: 520px;
+	overflow: hidden;
+	position: relative;
+}
+#detail_left .lunbo .lunbo_ul {
+	width: 2600px;
+	height: 520px;
+	position: absolute;
+	left: 0;
+}
+#detail_left .lunbo .lunbo_ul li {
+	float: left;
+}
+#play_picture_leftbtn {
+	position: absolute;
+	top: 26px;
+	width: 20px;
+	height: 30px;
+	background-image: url(../img/Lenovo_gooddetails/detail_old.png);
+	background-repeat: no-repeat;
+	left: 0;
+	background-position: -8px -8px;
+}
+#play_picture_rightbtn {
+	position: absolute;
+	top: 26px;
+	width: 20px;
+	height: 30px;
+	background-image: url(../img/Lenovo_gooddetails/detail_old.png);
+	background-repeat: no-repeat;
+	right: 0;
+	background-position: -40px -8px;
+}
+#detail_playPicture_list {
+	height: 88px;
+	width: 480px;
+	margin-left: 20px;
+	overflow: hidden;
+	background-color: #ffffff;
+	position: relative
+}
+#detail_playPicture_list ul {
+	width: 10000px;
+	height: 88px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.liActive {
+	border: 1px solid #ff6700 !important;
+}
+#detail_playPicture_list li {
+	float: left;
+	width: 86px;
+	height: 86px;
+	display: block;
+	margin-left: 8px;
+	border: 1px solid #eeeeee;
+	cursor: pointer;
+}
+#detail_playPicture_list li a {
+	display: block;
+	width: 84px;
+	height: 84px;
+}
+#detail_playPicture_list li a img {
+	border: 0;
+	width: 84px;
+	height: 84px;
+}
+#detail_left .good_action {
+	font-size: 13px;
+	margin-top: 5px;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+}
+#detail_left .good_action .good_code {
+	color: #707070;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: auto;
+	height: 30px;
+	line-height: 30px;
+}
+#detail_left .good_action .good-do {
+	display: inline-block;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+}
+#detail_left .good_action #div_sc {
+	right: 265px;
+}
+#detail_left .good_action .collect_img {
+	background-position: -8px -9px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 6px 8px 0 20px;
+	background-image: url(../img/Lenovo_gooddetails/new_detail.png);
+	display: inline-block;
+}
+#detail_left .good_action #div_share {
+	width: 150px;
+	min-height: 70px;
+	right: 165px;
+	height: auto;
+	position: relative;
+	left: 360px;
+	top: 1px;
+}
+#detail_left .good_action #a_share {
+	display: inline-block;
+	width: 88px;
+	height: 23px;
+	background: url(../img/Lenovo_gooddetails/detail_share_23.png) no-repeat;
+	margin-top: 3px;
+}
+#detail_left .good_action #a_share_info {
+	display: inline-block;
+	vertical-align: top;
+	height: 20px;
+	line-height: 20px;
+	right: 100px;
+	top: 6px;
+	position: absolute;
+	text-decoration: underline;
+	color: #e2231a;
+}
+#detail_main #div_share #div_share_a {
+	width: 150px;
+	height: 30px;
+}
+.div_share_a a {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px !important;
+	width: 20px;
+	height: 20px;
+	line-height: 30px;
+}
+.share-icon {
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: left;
+	overflow: hidden;
+	display: block !important;
+	vertical-align: middle;
+	background: url(../img/Lenovo_gooddetails/mui.png) no-repeat;
+}
+.div_share_a .share-icon-weibo {
+	background-position: -140px -113px;
+}
+.div_share_a .share-icon-weibo:hover {
+	background-position: -140px -133px;
+}
+.div_share_a .share-icon-qzone {
+	background-position: -209px -113px;
+}
+.div_share_a .share-icon-qzone:hover {
+	background-position: -209px -133px;
+}
+.div_share_a .share-icon-renren {
+	background-position: -163px -113px;
+}
+.div_share_a .share-icon-renren:hover {
+	background-position: -163px -133px;
+}
+.div_share_a .share-icon-weixin {
+	background-position: -232px -113px;
+}
+.div_share_a .share-icon-weixin:hover {
+	background-position: -232px -133px;
+}
+#detail_right #span_product_name {
+	width: 578px;
+}
+#detail_right .dec {
+	font-size: 14px;
+	margin-top: 17px;
+	line-height: 22px;
+	border-bottom: #dcdcdc solid 1px;
+	padding-bottom: 12px;
+}
+#detail_right .container {
+	display: block;
+	position: relative;
+}
+#detail_right .container .container-title {
+	font-size: 18px;
+	margin-top: 15px;
+}
+#detail_right .sales_con {
+	font-size: 14px;
+	margin-top: 10px;
+	color: #e2231a;
+}
+#detail_right .promotion-box {
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 70px;
+	padding-right: 10px;
+}
+#detail_right .promotion-box .title {
+	width: 66px;
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid #e2231a;
+	border-radius: 5px;
+	padding: 0 5px;
+	font-size: 12px;
+	box-sizing: border-box;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#detail_right .promotion-box .des {
+	color: #000000;
+	margin-left: 10px;
+	font-size: 14px;
+	height: auto;
+}
+#detail_right .promotion-box .djs {
+	color: #000000;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#detail_right {
+	width: 580px;
+	float: right;
+	color: #000000;
+}
+#detail_right #span_product_name {
+	font-size: 30px;
+}
+#detail_right .container .box {
+	position: relative;
+	margin-top: 10px;
+	height: auto;
+	overflow: hidden;
+	font-size: 14px;
+}
+#detail_right .more_choose {
+	color: #7d7d7d;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.borderShow {
+	border-color: #e2231a !important;
+}
+#detail_right .container .box .item {
+	position: relative;
+	width: 278px;
+	height: 53px;
+	line-height: 53px;
+	border-radius: 5px;
+	border: 1px solid #c9c9c9;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+#detail_right .container .box .item-no-children {
+	text-align: center;
+}
+#detail_right #container_guige .box .item {
+	width: 568px;
+}
+#detail_right .container .box .item .item-big-img {
+	width: 48px;
+	height: 48px;
+	margin: 3px 10px 0 8px;
+	float: left;
+}
+#detail_right .container .box .item .item-right {
+	margin-left: 58px;
+	font-size: 14px;
+	margin-top: 8px;
+	margin-right: 4px;
+	overflow: hidden;
+	line-height: 20px;
+}
+#detail_right .container .box .item .item-right .text-normal {
+	height: 20px;
+	overflow: hidden;
+}
+#detail_right .container .box .item .tjxj-price {
+	overflow: hidden;
+	height: 20px;
+}
+#detail_right .container .box .item .tjxj-price .price {
+	font-size: 13px;
+}
+#detail_right .container .box .item .tjxj-price .jiesheng {
+	color: #e2231a;
+	padding-left: 3px;
+	font-size: 12px;
+}
+#detail_right .icon_bg {
+	background-position: -147px -9px;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 20px 8px 0 10px;
+}
+#detail_right .bg {
+	background-image: url(../img/Lenovo_gooddetails/new_detail.png);
+	display: inline-block;
+}
+#div_service span.service-name {
+	display: inline-block;
+	overflow: hidden;
+	width: 165px;
+	height: 53px;
+}
+#div_service span.service-price {
+	display: inline-block;
+	vertical-align: top;
+}
+.guige-icon-sdimage {
+	display: inline-block;
+	background: url(../img/Lenovo_gooddetails/icon_srdz.jpg) no-repeat 0 16px;
+	height: 53px;
+	width: 27px;
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+/*商品信息*/
+#container_info #box_information {
+	display: block;
+}
+#container_info #box_information .images {
+	overflow: hidden;
+	width: 100%;
+}
+#box_information .goodsImg {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+}
+#container_info {
+	width: 100%;
+	height: auto;
+}
+#container_info .ul-box {
+	width: 1200px;
+	padding: 0;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	border-top: 1px solid #c9c9c9;
+	border-bottom: 1px solid #c9c9c9;
+}
+#container_info .ul-box li {
+	float: left;
+	padding-right: 40px;
+	list-style: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/*配置*/
+#container_info #box_configuration {
+	width: 1200px;
+	margin: 0 auto;
+	display: none;
+}
+#container_info #box_configuration .good_item {
+	padding-bottom: 15px;
+}
+#container_info #box_configuration .good_item .item_title {
+	font-size: 26px !important;
+	margin: 0px 30px 15px 0;
+	float: left;
+	width: 150px;
+	padding-top: 5px;
+}
+#container_info #box_configuration .good_item .item_title1 {
+	height: 50px;
+	width: 220px;
+	float: left;
+	margin-left: 35px;
+}
+#container_info #box_configuration .good_item .item_row {
+	height: auto;
+	overflow: hidden;
+	width: 1200px;
+}
+#container_info #box_configuration .good_item .item_row .col_one {
+	width: 150px;
+	height: 30px;
+	font-size: 14px;
+	float: left;
+}
+#container_info #box_configuration .good_item .item_row .col_two1 {
+	width: 976px !important;
+	height: 30px;
+	font-size: 14px;
+	margin-left: 64px !important;
+	font-weight: normal !important;
+}
+#box_configuration .good_item .item-row-last .col_one {
+	border-bottom: 1px solid #c9c9c9;
+}
+#box_configuration .good_item .item-row-last .col_one {
+	border-bottom: 1px solid #c9c9c9;
+}
+
+/*底部定位框*/
+#container_buygroup {
+	background: #e8e8e8;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+}
+#container_buygroup .detail_con {
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+	position: relative;
+}
+#container_buygroup #ewm_icon {
+	float: left;
+	display: inline-block;
+	height: 80px;
+	width: 73px;
+	background: url(../img/Lenovo_gooddetails/ewm_icon.jpg) no-repeat;
+}
+#container_buygroup #btn_gmzx {
+	float: left;
+	display: inline-block;
+	height: 80px;
+	width: 74px;
+	background: url(../img/Lenovo_gooddetails/goumaizixun.jpg) no-repeat;
+}
+#container_buygroup #a_gmzx {
+	display: block;
+	height: 80px;
+}
+#container_buygroup .operate_right {
+	float: right;
+	height: 80px;
+	line-height: 80px;
+}
+#container_buygroup #span_stock_dec {
+	margin-right: 5px;
+	float: left;
+}
+#container_buygroup .reduce {
+	display: inline-block;
+	background-position: -56px -33px;
+	width: 25px;
+	height: 27px;
+	margin: 27px 0 0 3px;
+	float: left;
+	cursor: pointer;
+	background-image: url(../img/Lenovo_gooddetails/new_detail.png);
+}
+#container_buygroup #buy_number {
+	width: 36px;
+	height: 25px;
+	border: 1px solid #9d9d9d;
+	background: white;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-top: 27px;
+	text-align: center;
+}
+#container_buygroup .add {
+	display: inline-block;
+	background-position: -82px -33px;
+	width: 26px;
+	height: 27px;
+	float: left;
+	margin-top: 27px;
+	cursor: pointer;
+	background-image: url(../img/Lenovo_gooddetails/new_detail.png);
+}
+#container_buygroup .operate_money {
+	font-size: 24px;
+	color: #e2231a;
+	margin-left: 16px;
+	float: left;
+}
+#container_buygroup #div_button_group {
+	float: left;
+	margin-top: 18px;
+	height: 40px;
+	line-height: 40px;
+}
+#container_buygroup #div_button_group #ljgm {
+	line-height: 40px;
+	display: inline-block;
+	min-width: 100px;
+	height: 40px;
+	background: #e2231a;
+	border-radius: 5px;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #ffffff;
+	margin-left: 15px;
+	cursor: pointer;
+	text-align: center;
+	padding: 0 20px;
+}
+
+/*右侧定位块*/
+.rightbar {
+	width: 36px;
+	height: 166px;
+	display: none;
+	border-top: 1px solid #e6e6e6;
+	position: fixed;
+	z-index: 9999;
+	right: 50%;
+	top: 48%;
+	margin-right: -650px;
+	margin-top: -115px;
+}
+.rightbar_hover {
+	width: 36px;
+	height: 35px;
+}
+.rightbar .icon_block {
+	background-color: #fff;
+	display: block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	color: #fff;
+	text-indent: -9999px;
+}
+.rightbar .myicon_hotline {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -4px -485px;
+}
+.rightbar .myicon_ask {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -49px -485px;
+}
+.rightbar .myicon_stores {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -98px -486px;
+}
+.rightbar .myicon_teasing {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -192px -486px;
+}
+.rightbar .totop {
+	display: block;
+	width: 36px;
+	height: 22px;
+	margin-top: 4px;
+	text-indent: -9999px;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -254px -491px;
+}

@@ -1,0 +1,299 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+}
+
+#main{
+	width:1200px;
+	margin: 0 auto;
+}
+
+.l02{
+	display: none;
+}
+.lunbo .num {
+    top: 400px;
+    position: absolute;
+    z-index: 3;
+    right: 50%;
+    margin-right: -30px;
+}
+.lunbo .num li{
+	border-radius: 50%;
+	background-color: #cfced2;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	float: left;
+}
+.lunbo .num .n1{
+	background-color: #f03f42;
+}
+
+#main .main02{
+	position: relative;
+	top: -4px;
+	background-color: #F7F7F7;
+	height: 458px;
+}
+#main .main02 .img{
+    width: 897px;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+}
+#main .main02 .img .img01{
+	position: absolute;
+}
+#main .main02 .img .img02{
+	position: absolute;
+	top: 40px;
+	left: 224px;
+}
+#main .main02 .img .img03{
+	position: absolute;
+	top: 40px;
+	left: 448px;
+}
+#main .main02 .img .img04{
+	position: absolute;
+	top: 40px;
+	left: 672px;
+}
+#main .main02 .img .img05{
+	position: absolute;
+	top: 296px;
+	left: 2px;
+}
+#main .main02 .img .img06{
+	position: absolute;
+	top: 296px;
+	left: 226px;
+}
+#main .main02 .img .img07{
+	position: absolute;
+	top: 296px;
+	left: 450px;
+}
+#main .main02 .img .img08{
+	position: absolute;
+	top: 296px;
+	left: 674px;
+}
+.main03{
+	height: 960px;
+}
+.main03 .c2c_pro_title {
+    text-align: center;
+    height: 86px;
+    line-height: 86px;
+    font-size: 45px;
+    color: #5a5a5a;
+    font-weight: normal;
+}
+.main03 .shangpin {
+    width: 1198px;
+    height: 803px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+}
+.main03 .shangpin .li1{
+	width: 786px;
+	height: 325px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.main03 .shangpin .li1 .li11{
+	padding-top: 56px;
+	padding-left: 54px;
+}
+.main03 .shangpin .li2{
+	position: absolute;
+	top: 0;
+	left: 786px;
+	width: 412px;
+	height: 566px;
+	border-left: 1px solid #d2d2d2;
+}
+.main03 .shangpin .li2 .li21{
+	padding-top: 56px;
+	padding-left: 54px;
+}
+.main03 .shangpin .li3{
+	width: 373px;
+	height: 479px;
+	border-right: 1px solid #d2d2d2;
+}
+.main03 .shangpin .li3 .li31{
+	padding-top: 22px;
+	padding-left: 54px;
+}
+.main03 .shangpin .li4{
+	width: 413px;
+	height: 239px;
+	border-top: 1px solid #d2d2d2;
+	position: absolute;
+	top: 566px;
+	left: 373px;
+}
+.main03 .shangpin .li4 .li41{
+	padding-top: 22px;
+	padding-left: 54px;
+}
+.main03 .shangpin .li5{
+	width: 412px;
+	height: 239px;
+	border-top: 1px solid #d2d2d2;
+	border-left: 1px solid #d2d2d2;
+	position: absolute;
+	top: 566px;
+	left: 786px;
+}
+.main03 .shangpin .li5 .li51{
+	padding-top: 22px;
+	padding-left: 54px;
+}
+.main03 .shangpin .li6{
+	position: absolute;
+	top: 325px;
+	left: 373px;
+}
+.main03 .shangpin .li6 .li61{
+	padding-top: 22px;
+	padding-left: 54px;
+}
+ .shangpin  h3 {
+ 	color: #000000;
+    font-size: 20px;
+    text-align: left;
+    line-height: 32px;
+    height: 32px;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+}
+.shangpin .over_title1{
+	width: 350px;
+}
+.shangpin .over_title2{
+	width: 310px;
+}
+.shangpin .over_title4{
+	width: 300px;
+}
+.shangpin .over_title5{
+	width: 260px;
+}
+.shangpin .over_title6{
+	width: 260px;
+}
+.c2c_pro_gift {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 18px;
+}
+.c2c_pro_gift span{
+	color: #000000;
+}
+.c2c_pro_equityPoint, .c2c_pro_couponPrice {
+    color: #008299;
+    margin-left: 2px;
+}
+.c2c_pro_goodsPrice {
+    height: 60px;
+    line-height: 60px;
+    color: #e6574f;
+    font-size: 25px;
+}
+ .shareActive{
+    /*left: 54px;
+    bottom: 63px;*/
+    border: 1px solid #e0e0e0;
+    display: block;
+    width: 70px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 15px;
+    background: url(../img/dream/code.png) no-repeat 16px 8px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #e21708;
+    font-weight: bold;
+    position: absolute;
+    top: 250px;
+    color: #e6574f;
+}
+.shareActive1 {
+    border: 1px solid #e0e0e0;
+    display: block;
+    width: 70px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 15px;
+    background: url(../img/dream/code.png) no-repeat 16px 8px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #e21708;
+    font-weight: bold;
+    position: absolute;
+    color: #e6574f;
+    top: 500px;
+}
+.shareActive4 {
+    border: 1px solid #e0e0e0;
+    display: block;
+    width: 70px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 15px;
+    background: url(../img/dream/code.png) no-repeat 16px 8px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #e21708;
+    font-weight: bold;
+    position: absolute;
+    color: #e6574f;
+    top:180px;
+}
+.shareActive6 {
+    border: 1px solid #e0e0e0;
+    display: block;
+    width: 70px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 15px;
+    background: url(../img/dream/code.png) no-repeat 16px 8px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #e21708;
+    font-weight: bold;
+    position: absolute;
+    color: #e6574f;
+    top:180px;
+}
+.shangpin img{
+	width: 165px;
+	height: 165px;
+}
+ .c2c_pro_goodsImg1 {
+    float: right;
+    padding-right: 50px;
+    margin-top: -100px;
+}
+.c2c_pro_goodsImg2 {
+   margin-top: 120px;
+}
+.c2c_pro_goodsImg3 {
+   margin-top: 80px;
+}
+.c2c_pro_goodsImg4 {
+   margin-top: -100px;
+   margin-left: 180px;
+}
+.c2c_pro_goodsImg6 {
+   margin-top: -100px;
+   margin-left: 180px;
+}

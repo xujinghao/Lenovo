@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body>
+		<!--<input type="button" name="" id="show" value="显示" style="position: absolute;" />-->
+		<div class="login">
+			<div class="login-main">
+				<div id="login-title">
+					<h3 class="active">普通登陆</h3>
+					<h3>快捷登陆</h3>
+					<a href="javascript:void(0)" id="login_box">X</a>
+				</div>
+
+				<div id="login-conts">
+					<form id="loginForm1">
+						<div>
+							<span class="input border">
+								<lable class="img"><img src="img/lenovo_login/icon03.jpg"/></lable>
+								<input type="text" name="userName" id="userName1" placeholder="请输入用户名" />
+							</span>
+							<span class="coler hide"><p>! 用户名由至少四位字母组成</p></span>
+							<span class="input border">
+							<lable class="img"><img src="img/lenovo_login/icon04.jpg"/></lable><input type="password" name="passWord" id="passWord1" placeholder="请输入密码" />
+						</span>
+							<span class="password hide"><p>! 密码长度在6~18之间，只能包含字符、数字和下划线</p></span>
+							<span class="input"><input type="checkbox" /> 自动登录</span>
+							<span class="input"><input type="button"  value="登&nbsp;&nbsp;陆"  class="login-btn submit1"/></span>
+							<span class="input"><a href="注册.html">立即注册</a><a href="javascript:void(0)" style="float: right;">忘记密码</a></span>
+							<span class="input">
+								使用合作账号登陆：
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_qq.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_sina.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_wc.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_zfb.png"/></a>
+							</span>
+						</div>
+					</form>
+					<form id="loginForm2" class="hide">
+						<div>
+							<span class="input border"><lable class="img"><img src="img/lenovo_login/icon03.jpg"/></lable><input type="text" name="userName" id="userName2" placeholder="请输入手机号" /></span>
+							<span class="coler hide"><p>! 您输入的手机号格式有误或未填写</p></span>
+
+							<span class="input border" style="width: 154px;"><lable class="img"><img src="img/lenovo_login/icon04.jpg"/></lable><input type="text" name="code" id="code2" placeholder="请输入验证码" style="width: 100px;" /></span>
+							<img src="//captcha.lenovo.com.cn/img?1501405559167" style="line-height: 34px;height: 34px;" /><span style="">换一张</span>
+							<span class="input border"><lable class="img"><img src="img/lenovo_login/icon04.jpg"/></lable><input type="password" name="passWord" id="passWord2" placeholder="输入密码" /></span>
+							<span class="password hide"><p>! 密码长度在6~18之间，只能包含字符、数字和下划线</p></span>
+
+							<span class="input"><input type="checkbox" /> 自动登录</span>
+							<span class="input"><input type="button"  value="登&nbsp;&nbsp;陆" class="login-btn submit2"/></span>
+
+							<span class="input">
+								<a href="注冊.html">立即注冊</a>
+								<a href="javascript:void(0)" style="float: right;">忘记密码</a></span>
+							<span class="input">
+								使用合作账号登陆：
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_qq.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_sina.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_wc.png"/></a>
+								<a href="javascript:void(0)"><img src="img/lenovo_login/ico_zfb.png"/></a>
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="alert alert1 hide">
+				<div class="inform">
+					<h2><span class="warn warn1">v</span> 恭喜您！登陆成功。</h2>
+					<p>点击确定关闭该页面</p>
+					<h1><input type="button" class="yes1" id="" value="确 定" /></h1>
+				</div>
+			</div>
+		<div class="alert alert2 hide">
+				<div class="inform">
+					<h2>
+						<p class="warn warn2">！</p>
+						<p class="tip"></p>
+					</h2>
+					<h1><input type="button" class="yes2" id="" value="确 定" /></h1>
+				</div>
+			</div>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/error.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

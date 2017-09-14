@@ -1,0 +1,14 @@
+#Tab{
+	padding-top: 50px;
+	width: 800px;
+	margin: 0 auto;
+}
+#Tab .tab{
+	text-align: center;
+	line-height: 50px;
+}
+#btn{
+	padding-top: 30px;
+	width: 300px;
+	margin: 0 auto;
+}

@@ -1,0 +1,944 @@
+
+/*导航右侧*/
+
+.rightbar {
+	width: 36px;
+	border-top: 1px solid #e6e6e6;
+	position: fixed;
+	z-index: 9999;
+	right: 50%;
+	top: 48%;
+	margin-right: -650px;
+	margin-top: -115px;
+}
+
+.rightbar .totop {
+	display: block;
+	width: 36px;
+	height: 22px;
+	background-position: -254px -491px;
+	margin-top: 4px;
+	text-indent: -9999px;
+}
+
+.rightbar li {
+	position: relative;
+}
+.myicon {
+	background-image: url(../img/Lenovo_Snowman/icons_sprit.png);
+}
+.rightbar li .icon_block {
+	background-color: #fff;
+	display: block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	color: #fff;
+	text-indent: -9999px;
+}
+
+.rightbar li .myicon_hotline {
+	background-position: -4px -485px;
+}
+
+.rightbar li .myicon_ask {
+	background-position: -49px -485px;
+}
+
+.rightbar li .myicon_stores {
+	background-position: -98px -486px;
+}
+
+.rightbar li .myicon_phone {
+	line-height: 17px;
+	line-height: 14px;
+	height: 30px;
+	padding-top: 4px;
+	background-position: -144px -486px;
+}
+
+.rightbar li .myicon_teasing {
+	background-position: -192px -486px;
+}
+
+.rightbar li .icon_block:hover,
+.rightbar li.active .icon_block {
+	text-indent: 0;
+	background: #7ecef4;
+}
+
+.rightbar li .rightbar_show {
+	width: 200px;
+	position: absolute;
+	right: 35px;
+	top: -1px;
+	border: 1px solid #e6e6e6;
+	border-bottom: 0;
+	background: #fff;
+	z-index: 9999;
+	display: none;
+}
+
+.rightbar li.active .rightbar_show {
+	display: block;
+}
+
+.rightbar .rightbar_show .myicon_small {
+	position: absolute;
+	right: -5px;
+	top: 13px;
+	display: block;
+	width: 5px;
+	height: 8px;
+	background-position: -61px -464px;
+}
+
+.rightbar .rightbar_show dt,
+.rightbar .rightbar_show dd {
+	float: left;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.rightbar .rightbar_show dt {
+	width: 65px;
+	height: 45px;
+}
+
+.rightbar .rightbar_show dd {
+	width: 130px;
+	padding: 7px 0 0 5px;
+	height: 38px;
+	line-height: 16px;
+	color: #6f7170;
+}
+
+.rightbar .rightbar_show dd a {
+	color: #6f7170;
+}
+
+.rightbar .rightbar_show_ask dt {
+	width: 55px;
+}
+
+.rightbar .rightbar_show_ask dd {
+	width: 140px;
+}
+
+.rightbar .rightbar_show_hotline .hover_lenovo {
+	background-position: -1px -527px;
+}
+
+.rightbar .rightbar_show_hotline .hover_thinkpad {
+	background-position: -66px -526px;
+}
+
+.rightbar .rightbar_show_hotline .hover_phone {
+	background-position: -129px -525px;
+}
+
+.rightbar .rightbar_show_hotline .hover_service {
+	background-position: -196px -525px;
+}
+
+.rightbar .rightbar_show_hotline .hover_TV {
+	background-position: -260px -525px;
+}
+
+.rightbar .rightbar_show_hotline .hover_shangyong {
+	background-position: -318px -525px;
+}
+
+.rightbar .rightbar_show_hotline .hover_tongxin {
+	background-position: -356px -480px;
+}
+
+.rightbar .rightbar_show_hotline .hover_dianshi {
+	background-position: -259px -567px;
+}
+
+.rightbar .rightbar_show_ask .hover_before {
+	background-position: -329px -526px;
+}
+
+.rightbar .rightbar_show_ask .hover_after {
+	background-position: -395px -526px;
+}
+
+.rightbar .rightbar_show_ask .hover_gw {
+	background-position: -58px -700px;
+}
+
+.rightbar li .rightbar_show_phone {
+	width: 250px;
+}
+
+.rightbar .rightbar_show_phone h3 {
+	text-align: center;
+	font-size: 13px;
+	color: #e2231a;
+	font-weight: normal;
+	padding: 15px 0;
+}
+
+.rightbar .rightbar_show_phone ul {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 0 19px 15px 19px;
+}
+
+.rightbar .rightbar_show_phone li {
+	float: left;
+	text-align: center;
+	width: 76px;
+	padding: 0 15px;
+}
+
+.rightbar .rightbar_show_phone li i {
+	display: block;
+	width: 76px;
+	height: 76px;
+}
+
+.rightbar .rightbar_show_phone li .icon_wap {
+	background-position: -4px -592px;
+}
+
+.rightbar .rightbar_show_phone li .icon_app {
+	background-position: -88px -592px;
+}
+
+.rightbar .rightbar_show_phone li span {
+	display: block;
+	padding-top: 5px;
+}
+
+#rightIcon {
+	width: 16px;
+	height: 36px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -101px;
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+	background-position: -328px -476px;
+}
+
+#twoDimentionCode {
+	display: none
+}
+
+.twoDimentionCode {
+	display: none;
+	padding: 2px;
+	position: fixed;
+	left: 50%;
+	bottom: 50px;
+	margin-left: 612px;
+	z-index: 999;
+	border: solid 1px #ccc;
+	background: #fff;
+	text-align: center;
+}
+
+.twoDimentionCode em {
+	background-position: -88px -592px;
+	display: block;
+	width: 76px;
+	height: 76px;
+	margin: 0 auto;
+	margin-bottom: 5px
+}
+
+.twoDimentionCode span {
+	line-height: 12px;
+}
+
+.twoDimentionCode .red {
+	color: #e2231a
+}
+
+.ewm_red {
+	color: red;
+}
+
+.detail_con {
+	width: 1200px;
+	margin: 0 auto;
+	color: #3a3a3a;
+	margin-top: 20px;
+}
+
+
+/*导航条*/
+
+.de_location {
+	height: 32px;
+	line-height: 32px;
+	background: #eee;
+	padding-left: 5px;
+}
+
+.de_location a,
+.de_location span {
+	margin: 0 3px;
+}
+
+.detail_con a {
+	color: #4e4e4e;
+}
+
+.detail_con a:hover {
+	color: #e2231a;
+}
+
+
+/*商品图片简介*/
+
+
+/*图片简介左侧*/
+
+.detail_info_fl {
+	float: left;
+	width: 610px;
+	padding-top: 25px;
+}
+
+
+/*slider小图轮播左右按钮*/
+
+.pro_img {
+	position: relative;
+	width: 544px;
+	z-index: 0;
+	margin: 0 auto;
+}
+
+.pro_img .pro_prev,
+.pro_img .pro_next {
+	position: absolute;
+	bottom: 25px;
+	width: 20px;
+	height: 30px;
+	background-image: url(../img/Lenovo_Snowman/detail.png);
+}
+
+
+/*左端*/
+
+.pro_img .pro_prev {
+	left: 0;
+	background-position: -8px -8px;
+}
+
+
+/*右端*/
+
+.pro_img .pro_next {
+	right: 0;
+	background-position: -40px -8px;
+}
+
+
+/*商品简介大图*/
+
+.pro_img .pro_img_big {
+	width: 544px;
+	height: 544px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.pro_img .pro_img_big li {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 544px;
+	height: 544px;
+	text-align: center;
+	background: #fff;
+}
+
+.pro_img .pro_img_big li img {
+	width: 544px;
+	height: 544px;
+}
+
+a img {
+	border: 0;
+	vertical-align: top;
+}
+
+
+/*轮播导航小图*/
+
+.pro_img .pro_img_small {
+	width: 500px;
+	margin: 0 auto;
+	height: 86px;
+	overflow: hidden;
+	position: relative;
+}
+
+.pro_img .pro_img_small .pro_ul {
+	position: absolute;
+	bottom: 0;
+	height: 86px;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+}
+
+.pro_img .pro_img_small li {
+	float: left;
+	border: 1px solid #cecdcd;
+	border-radius: 3px;
+	margin: 0 7px;
+	width: 84px;
+	height: 84px;
+	opacity: 0.4;
+}
+
+.pro_img .pro_img_small .smallImgPitch {
+	border: 1px solid grey;
+	opacity: 0.4;
+}
+
+
+/*商品编号*/
+
+.de_action {
+	position: relative;
+	padding: 18px 55px 18px 60px;
+}
+
+.de_action span {
+	float: left;
+	color: #9a9a9a;
+	width: 300px;
+}
+
+a#sc {
+	display: block;
+	position: absolute;
+	padding-left: 22px;
+	right: 220px;
+	top: 18px;
+	float: none;
+}
+
+.detailpng {
+	background-image: url(../img/Lenovo_Snowman/detail.png);
+}
+
+.de_action .disable {
+	background-position: -9px -109px;
+}
+
+.de_action a {
+	float: right;
+	height: 16px;
+	line-height: 16px;
+	color: #676262;
+	margin-left: 20px;
+}
+
+a#share {
+	background: url(../img/Lenovo_Snowman/detail_share_23.png);
+	display: inline-block;
+	width: 88px;
+	height: 23px;
+	position: absolute;
+	right: 120px;
+	float: none;
+	top: 15px;
+	padding-left: 0;
+}
+
+a#share_info {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	right: 40px;
+	top: 16px;
+	position: absolute;
+	text-decoration: underline;
+	color: #e2231a;
+	padding-left: 0;
+	width: 60px;
+}
+
+
+/*分享有礼下拉*/
+
+.share_box {
+	position: absolute;
+	top: 42px;
+	left: 380px;
+	height: 30px;
+	width: 150px;
+	z-index: 2;
+	border: 1px solid #C29C9C;
+	overflow: hidden;
+	clear: both;
+	background-color: #fff;
+	display: none;
+}
+
+.share_box a {
+	float: none;
+	padding-left: 0;
+}
+
+.share_box .jiathis_style a {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px !important;
+	width: 20px;
+	height: 20px;
+	line-height: 30px;
+	margin-left: 0;
+	overflow: hidden;
+}
+
+.share_box span {
+	width: 2px;
+	padding-bottom: 5px !important;
+}
+
+.de_action span {
+	float: left;
+	color: #9a9a9a;
+	width: 300px;
+}
+
+a span {
+	cursor: pointer;
+}
+
+.share_box .share-icon {
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: left;
+	overflow: hidden;
+	vertical-align: middle;
+	background: url(../img/Lenovo_Snowman/mui.png) left no-repeat !important;
+}
+
+.jiathis_style .share-icon-weibo {
+	background-position: -140px -114px !important;
+}
+
+.jiathis_style .share-icon-weibo:hover {
+	background-position: -140px -133px !important;
+}
+
+.jiathis_style .share-icon-qzone {
+	background-position: -209px -114px !important;
+}
+
+.jiathis_style .share-icon-qzone:hover {
+	background-position: -209px -133px !important;
+}
+
+.jiathis_style .share-icon-renren {
+	background-position: -163px -114px !important;
+}
+
+.jiathis_style .share-icon-renren:hover {
+	background-position: -163px -133px !important;
+}
+
+.jiathis_style .share-icon-weixin {
+	background-position: -232px -114px !important;
+}
+
+.jiathis_style .share-icon-weixin:hover {
+	background-position: -232px -133px !important;
+}
+
+
+/*图片简介右侧*/
+
+.detail_info_fr {
+	width: 590px;
+	float: right;
+	padding-top: 18px;
+}
+
+.detail_info_fr .de_proname {
+	font-size: 20px;
+	font-weight: normal;
+	color: #3a3a3a;
+	height: 42px;
+	line-height: 42px;
+	overflow: hidden;
+}
+
+.detail_info_fr .de_description {
+	font-size: 13px;
+	color: #6f6f6f;
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.detail_info_fr .de_info_main {
+	background: #eee;
+	padding-top: 12px;
+	margin-top: 18px;
+}
+
+.de_info_main .de_info_price {
+	padding: 10px 12px 10px 12px;
+}
+
+.de_info_main .de_info_price .de_fl {
+	font-size: 13px;
+	color: #000;
+}
+
+.de_info_main .de_info_price b {
+	font-size: 26px;
+	color: #e2231a;
+}
+
+
+/*清除浮动*/
+
+.detail_info_fr .de_info_app {
+	background: #e8e8e8;
+	height: 26px;
+	padding-right: 12px;
+	position: relative;
+}
+
+.de_info_section {
+	padding: 15px 0 5px 12px;
+	border-top: 1px solid #ececec;
+}
+
+.de_info_section li {
+	position: relative;
+}
+
+.de_info_section li .de_sec_label {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	color: #3a3a3a;
+	width: 92px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.de_info_section li .de_sec_main {
+	float: left;
+	width: 486px;
+}
+
+.de_info_section li .de_sec_main .de_sec_sel {
+	width: 220px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	padding: 0 12px;
+	border: 1px solid #ececec;
+	color: #6f6f6f;
+	margin: 0 5px 9px 0;
+	cursor: pointer;
+}
+
+.de_info_section li .de_sec_main .active {
+	border: 1px solid #e2231a;
+	color: #e2231a;
+}
+
+.de_info_btn {
+	padding-top: 30px;
+}
+
+.de_info_btn .de_info_num {
+	float: left;
+	width: 67px;
+}
+
+.de_info_btn .i_box {
+	display: block;
+	width: 67px;
+	height: 41px;
+}
+
+.de_info_btn .i_box .pro_num {
+	float: left;
+	width: 42px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #9d9d9d;
+	text-align: center;
+	font-size: 20px;
+	color: #6f6f6f;
+}
+
+.de_info_btn .i_box .pro_less,
+.de_info_btn .i_box .pro_add {
+	width: 22px;
+	height: 20px;
+	background-color: #e7e7e7;
+	border: 1px solid #9d9d9d;
+	border-left: 0;
+	float: left;
+}
+
+.de_info_btn .i_box .pro_add {
+	background-position: -177px -3px;
+	border-bottom: 0;
+}
+
+.de_info_btn .i_box .pro_less {
+	background-position: -204px -3px;
+}
+
+.de_info_btn .de_btn_buy {
+	color: #e2231a;
+	background: #fff;
+}
+
+.de_info_btn .de_button {
+	float: left;
+	margin-left: 13px;
+	width: 134px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 2px;
+	border: 1px solid #e2231a;
+	font-size: 20px;
+}
+
+.de_info_btn .de_btn_car {
+	color: #fff;
+	background: #e2231a;
+}
+
+.de_info_btn .de_btn_car:hover {
+	color: black;
+}
+
+
+/*下半部分*/
+
+.main {
+	width: 1200px;
+	background: #fff;
+	margin: 10px auto 0;
+}
+
+.box {
+	height: auto;
+	background: #fff;
+}
+
+
+/*下部左侧*/
+
+.box-lt {
+	float: left;
+	width: 210px;
+	background: #fff;
+}
+
+.lt-boxa {
+	height: auto;
+	border: 1px solid #ececec;
+}
+
+.lt-boxa h1 {
+	height: 40px;
+	background: #eee;
+	line-height: 40px;
+	text-align: center;
+	color: #303030;
+}
+
+.lt-boxa dl {
+	border-bottom: 1px dotted #9c9c9c;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.lt-boxa dl dt {
+	float: left;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+.main a,
+.main b,
+.main p {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.lt-boxa dl dt img {
+	width: 70px;
+	height: 70px;
+}
+
+.lt-boxa dl dd {
+	margin: 8px auto;
+	height: 85px;
+}
+
+img,
+a img {
+	border: 0;
+	vertical-align: top;
+}
+
+.lt-boxa dl dd b {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #ff0c00;
+	/* line-height: 35px; */
+}
+
+.lt-boxa dl dd p {
+	font-size: 12px;
+	color: #585858;
+	font-family: "微软雅黑";
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+	word-break: break-all;
+	padding-top: 3px;
+	/* float: left; */
+}
+
+
+/*底部右侧商品详情*/
+
+
+/*底部右侧导航*/
+
+.box-rt {
+	width: 978px;
+	background: #fff;
+	float: right;
+	overflow-x: hidden;
+}
+
+.tab-hd {
+	height: 40px;
+	background: #eee;
+	border: 1px solid #ececec;
+	border-bottom: 0;
+}
+
+.tab-hd ul li.current {
+	background: #fff;
+	border-top: 2px solid #e2231a;
+	color: #e2231a;
+}
+
+.tab-hd ul li {
+	float: left;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	line-height: 38px;
+	padding: 0px 45px;
+	list-style: none;
+	display: block;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+/*下部右侧导航下边内容*/
+
+ul.rt-box,
+.ns_attributes-list,
+.ns_comment {
+	border: 1px solid #ececec;
+	border-top: 0;
+}
+
+.rt-box li .rt-box img {
+	width: 978px;
+}
+
+.ns_comment .ns_comment-inner {
+	padding: 25px 40px;
+}
+
+#sppl_box {
+	width: 900px;
+}
+
+#sppl_box #sppl_title {
+	height: 60px;
+	overflow: hidden;
+}
+
+#sppl_box * {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: \5FAE\8F6F\96C5\9ED1, Microsoft YaHei;
+}
+
+#sppl_box #sppl_title dt {
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	width: 82px;
+}
+
+#sppl_box #sppl_title dt b {
+	color: #E2231A;
+	font-family: Arial;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+#sppl_box #sppl_title dt p {
+	color: #999;
+	font-size: 12px;
+}
+
+#sppl_box #sppl_title dd {
+	float: left;
+	width: 150px;
+	margin-right: 3px;
+	margin-top: 19px;
+	background: #F3F3F3;
+	color: #333;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#sppl_box #sppl_list {
+	margin-top: 10px;
+	border-top: 2px solid #e4e4e4;
+}
+
+.de_info_btn .de_info_num span {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+
+#plus,
+#nimus {
+	cursor: pointer;
+}

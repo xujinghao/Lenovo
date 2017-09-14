@@ -1,0 +1,794 @@
+.banner {
+	width: 100%;
+	height: 406px;
+	position: relative;
+	overflow: hidden;
+}
+
+.xiaoxin {
+	width: 100%;
+	height: 406px;
+}
+
+.xiaoxin_ul {
+	width: 15360px;
+	height: 406px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+.lunbo_li {
+	width: 1920px;
+	height: 406px;
+	float: left;
+}
+
+.lunbo_img {
+	width: 1920px;
+	height: 100%;
+}
+
+.btnLeft {
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	left: 0px;
+	top: 41.5%;
+	background-image: url(../img/Lenovo_home/icon.png);
+	background-position: -88px -192px;
+	display: none;
+}
+
+.btnRight {
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	right: 0px;
+	top: 41.5%;
+	background-image: url(../img/Lenovo_home/icon.png);
+	background-position: -130px -192px;
+	display: none;
+}
+
+.lubo_dots {
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 360px;
+	z-index: 3;
+	text-align: center;
+}
+
+#dot_ul>li {
+	width: 10px;
+	height: 10px;
+	background-color: #383838;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+}
+
+#dot_ul .active {
+	background-color: #fffcf2;
+}
+
+.shop_nav_box{
+	width: 1200px;
+	height: 410px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	
+}
+.shop_nav_c {
+	width: 190px;
+	height: 407px;
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	border-top: 1px solid #E6E6E6;
+}
+
+.shop_nav_c li {
+	z-index: 111;
+}
+
+.shop_nav_c .list_name>a {
+	height: 10.6px;
+	line-height: 10.6px;
+	font-size: 15px;
+	position: relative;
+	padding: 14px 15px 15px 20px;
+	font-weight: 400;
+	display: block;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	background-color: white;
+	color: #000000;
+}
+
+.shop_nav_c .list_icona {
+	right: 15px;
+	top: 21px;
+	width: 6px;
+	height: 9px;
+	position: absolute;
+	display: inline-block;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -84px -36px;
+	background-repeat: no-repeat;
+}
+
+.list_cont {
+	width: 934px;
+	height: 385px;
+	background: #f7f7f7;
+	position: absolute;
+	left: 190px;
+	top: -1px;
+	padding: 0 22px 20px 52px;
+	border: 1px solid #E6E6E6;
+	border-left: none;
+	z-index: 333;
+	display: none;
+}
+
+.list_cont .list_lt {
+	width: 630px;
+	float: left;
+	margin-top: 20px;
+}
+
+.list_lta {
+	margin-top: 15px;
+}
+
+.list_lta .ap {
+	font-size: 13px;
+	color: #000000;
+}
+
+.list_lta_ul {
+	margin-left: 55px;
+	border-bottom: 1px solid #e5e5e5;
+	width: 575px;
+	height: 20px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}
+
+.list_lta_li {
+	font-size: 12px;
+	float: left;
+	line-height: 20px;
+	height: 20px;
+	zoom: 1;
+}
+
+.list_lta_li a {
+	border-left: 1px solid #e5e5e5;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #000;
+	white-space: nowrap;
+}
+
+.list_cont .list_rt {
+	width: 252px;
+	float: right;
+	margin-top: 17px;
+}
+
+.list_cont .list_rt a {
+	display: block;
+}
+
+.list_cont .list_rt img {
+	width: 252px;
+	height: 160px;
+	margin-bottom: 5px;
+}
+
+.piece_cntr {
+	width: 1200px;
+	height: 90px;
+	margin: 0px auto;
+}
+
+.piece_cntr_ul {
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 16px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #9c9c9c;
+	text-align: center;
+}
+
+.qukuai {
+	display: inline-block;
+	width: 60px;
+	height: 70px;
+	margin: 0 30px;
+}
+
+.hover_img {
+	display: none;
+}
+
+.qukuai_p {
+	color: #9C9C9C;
+}
+
+.shops_ad {
+	width: 1200px;
+	margin: 14px auto;
+}
+
+.shops_ad>ul {
+	margin: 0 -9px;
+	overflow: hidden;
+	height: 140px;
+}
+
+.shops_ad>ul>li {
+	position: relative;
+	width: 388px;
+	height: 140px;
+	float: left;
+	margin: 0 9px;
+	overflow: hidden;
+}
+
+.shops_ad>ul>li a:hover img{
+	transform: scale(1.04);
+}
+
+.shops_ad>ul>li a img{
+	transition: all 0.4s;
+}
+
+.star_box {
+	width: 1200px;
+	height: 341px;
+	padding-bottom: 35px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#star_box .star_box_left_btn{
+	position: absolute;
+    right: 28px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    background-position: -143px -31px;
+    display: inline-block;
+    background-image: url(../img/Lenovo_home/CmBZD1ZYVqKAAyHZAADar4afzUA168.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#star_box .star_box_right_btn{
+	position: absolute;
+    right: 1px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    background-position: -117px -31px;
+    display: inline-block;
+    background-image: url(../img/Lenovo_home/CmBZD1ZYVqKAAyHZAADar4afzUA168.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.star_box>h3 {
+	width: 1200px;
+	height: 42px;
+}
+
+.star_box>h3 span {
+	width: 80px;
+	height: 22px;
+	line-height: 42px;
+	font-size: 22px;
+	color: #000000;
+}
+
+.star_main {
+	width: 1200px;
+	height: 299px;
+	position: relative;
+	overflow: hidden;
+}
+.star_main ul{
+	width: auto;
+	height: 299px;
+	position: absolute;
+	left: 0;
+}
+.star_main_li {
+	border: 1px solid #e6e6e6;
+	width: 198px;
+	height: 297px;
+	text-align: center;
+	float: left;
+}
+
+.star_main_li>a img {
+	width: 180px;
+	height: 180px;
+	margin-top: 15px;
+	margin-bottom: 28px;
+}
+
+.star_name {
+	line-height: 20px;
+	width: 179px;
+	overflow: hidden;
+	height: 20px;
+	margin: 0px;
+	padding: 0px 10px;
+}
+
+.star_name a {
+	color: black;
+}
+
+.star_name2 {
+	line-height: 20px;
+	width: 179px;
+	overflow: hidden;
+	height: 20px;
+	margin: 0px;
+	padding: 0px 10px;
+	font-size: 13px;
+}
+
+.star_name2 a {
+	color: #6f7170;
+}
+
+.star_price {
+	line-height: 20px;
+	width: 179px;
+	overflow: hidden;
+	height: 20px;
+	margin: 0px;
+	padding: 0px 10px;
+	font-size: 14px;
+}
+
+.star_price a {
+	color: #e2231a;
+}
+
+.good_main {
+	width: 100%;
+	height: auto;
+	background-color: #F5F5F5;
+	padding: 30px 0px 30px 0px;
+}
+
+.J-computer-box {
+	width: 1200px;
+	height: 583px;
+	padding-bottom: 30px;
+	margin: 0px auto;
+}
+
+.J-computer-box .floor_title {
+	width: 1200px;
+	height: 48px;
+}
+
+.J-computer-box .floor_title>h3 {
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+	font-weight: normal;
+	width: 240px;
+}
+
+.J-computer-box .floor_title .floor_links {
+	float: right;
+	width: 960px;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.J-computer-box .floor_title .floor_links a {
+	color: #6f7170;
+	margin-left: 12px;
+}
+
+.J-computer-box .floor_title .floor_links .floor_more {
+	width: 24px;
+	height: 16px;
+	display: inline-block;
+	padding-right: 20px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -12px -433px;
+}
+
+.J-computer-box .floor_left {
+	width: 240px;
+	height: 535px;
+	float: left;
+	overflow: hidden;
+}
+
+.floor_left_img {
+	width: 240px;
+	height: 535px;
+}
+
+.floor_right {
+	float: right;
+	width: 960px;
+	border-top: 1px solid #dedede;
+}
+
+.floor_item {
+	width: 239px;
+	height: 266px;
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	float: left;
+	position: relative;
+	background: #fff;
+	text-align: center;
+}
+.floor_label{
+	display: block;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+}
+.floor_label1{
+	background-position: 0 -700px;
+}
+.floor_label2{
+	background-position: 0 -760px;
+}
+.floor_label3{
+	background-position: 0 -820px;
+}
+.floor_label4{
+	background-position: 0 -880px;
+}
+.floor_label5{
+	background-position: 0 -940px;
+}
+.floor_label6{
+	background-position: 0 -1000px;
+}
+.floor_label7{
+	background-position: 0 -1060px;
+}
+.floor_label8{
+	background-position: 0 -1120px;
+}
+.floor_label9{
+	background-position: 0 -1180px;
+}
+
+.floor_item .pro_img {
+	width: 239px;
+	height: 164px;
+	padding: 12px 0px 12px 0px;
+	overflow: hidden;
+	display: block;
+}
+
+.floor_item .pro_img .pro_img1 {
+	width: 164px;
+	height: 164px;
+	position: absolute;
+	left: 37.5px;
+}
+
+.floor_item .pro_name {
+	width: 211px;
+	height: 22px;
+	padding: 0 14px;
+	line-height: 22px;
+	font-size: 14px;
+	display: block;
+	overflow: hidden;	
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.floor_item .pro_description {
+	color: #6f7170;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0 12px;
+}
+
+.floor_item .prod>a {
+	font-size: 14px;
+	color: #e2231a;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.seven_box {
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.seven_box>h3 {
+	height: 42px;
+	line-height: 42px;
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+}
+
+.seven_main {
+	width: 1200px;
+	height: 212px;
+}
+
+.seven_main>ul {
+	display: inline-block;
+}
+
+.seven_main .seven_pic {
+	float: left;
+	margin-right: 12px;
+}
+
+.seven_pic_img {
+	position: relative;
+	width: 190px;
+	height: 212px;
+}
+.seven_pic_img:hover{
+	box-shadow: 0px 0px 20px #000000;
+}
+
+
+.seven_pic_img .lazy_img1 {
+	width: 190px;
+	height: 212px;
+}
+
+.seven_opacity {
+	position: absolute;
+	bottom: 0;
+	width: 190px;
+	height: 43px;
+	background: #060d19;
+	opacity: 0.5;
+}
+
+.seven_text {
+	position: absolute;
+	bottom: 0;
+	width: 170px;
+	height: 40px;
+	padding: 3px 10px 0px 10px;
+}
+
+.seven_a {
+	width: 44px;
+	height: 22px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -170px -72px;
+	margin-top: 11px;
+	float: left;
+}
+.seven_b {
+	width: 37px;
+    height: 34px;
+    background-position: -276px -67px;
+    margin-top: 7px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -227px -70px;
+	float: left;
+}
+.seven_c {
+	width: 28px;
+    height: 28px;
+    background-position: -276px -67px;
+    margin-top: 7px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -220px -108px;
+	float: left;
+}
+.seven_d {
+	width: 37px;
+    height: 34px;
+    background-position: -276px -67px;
+    margin-top: 7px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -264px -107px;
+	float: left;
+}
+.seven_e {
+	width: 32px;
+    height: 27px;
+    background-position: -276px -67px;
+    margin-top: 7px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -276px -67px;
+	float: left;
+}
+
+.seven_text span {
+	float: right;
+	color: #fff;
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+.rightbar {
+	width: 36px;
+	height: 166px;
+	display: none;
+	border-top: 1px solid #e6e6e6;
+	position: fixed;
+	z-index: 9999;
+	right: 50%;
+	top: 48%;
+	margin-right: -650px;
+	margin-top: -115px;
+}
+
+.rightbar_hover {
+	width: 36px;
+	height: 35px;
+}
+
+.rightbar .icon_block {
+	background-color: #fff;
+	display: block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	color: #fff;
+	text-indent: -9999px;
+}
+
+.rightbar .myicon_hotline {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -4px -485px;
+}
+
+.rightbar .myicon_ask {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -49px -485px;
+}
+
+.rightbar .myicon_stores {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -98px -486px;
+}
+
+.rightbar .myicon_teasing {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -192px -486px;
+}
+
+.rightbar .totop {
+	display: block;
+	width: 36px;
+	height: 22px;
+	margin-top: 4px;
+	text-indent: -9999px;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -254px -491px;
+}
+
+.ns_floor-nav-box {
+	position: fixed;
+	left: 50%;
+	margin-left: -650px;
+	z-index: 99;
+	width: 30px;
+	top: 50%;
+	margin-top: -166px;
+	text-align: center;
+	display: none;
+}
+
+.ns_floor-nav-box a {
+	text-decoration: none;
+	font-size: 12px;
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+	height: 26px;
+	line-height: 26px;
+	transition: none;
+}
+
+.ns_floor-nav-box span {
+	color: #666;
+}
+
+.ns_floor-nav-box>ul {
+	width: 30px;
+	height: 291px;
+}
+
+.ns_floor-nav-box .ns_l2 {
+	width: 30px;
+	height: 26px;
+}
+
+.ns_floor-nav-box .ns_l2>a {
+	font-size: 12px;
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+	height: 26px;
+	line-height: 26px;
+	transition: none;
+	text-align: center;
+}
+
+
+
+.ns_floor-nav-box .ns_line {
+	width: 10px;
+	height: 0;
+	font-size: 0;
+	border-bottom: 1px solid #e5e5e5;
+	margin: 5px auto;
+	line-height: 0;
+}
+
+.ns_floor-nav-box .ns_star {
+	line-height: 0;
+	width: 18px;
+	height: 26px;
+	top: 1px;
+	margin-left: 6px;
+	display: block;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -4px -455px;
+}
+
+.ns_floor-nav-box .ns_l2 .span1 {
+	width: 30px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	top: 1px;
+	color: #666666;
+	display: block;
+}
+
+.ns_floor-nav-box .span2 {
+	width: 30px;
+	height: 13px;
+	top: 1px;
+	line-height: 13px;
+	color:  #000000;
+	display: none;
+}
+.hoverACtive{
+	color:  #ff6700 !important;
+	display: block !important;
+}
+.scollActive{
+	color:  #4ac0e0 !important;
+	display: block !important;
+}

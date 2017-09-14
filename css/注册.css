@@ -1,0 +1,217 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+#logo{
+	position: relative;
+	width: 429px;
+	min-height: 360px;
+	border: 1px solid;
+	padding-bottom: 30px;
+	margin: 100px auto;
+}
+.enroll_title {
+    width: 429px;
+    height: 37px;
+    background-color: #000;
+}
+.enroll_title h1 {
+    float: left;
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+#logo .close {
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #fff;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    /*background: url(../img/dream/x1.png);*/
+}
+.enroll_inputa {
+    /*height: 30px;*/
+    margin-top: 30px;
+    padding: 0;
+}
+.enroll_inputa p{
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    width: 360px;
+    border: 1px solid #c2c2c2;
+}
+.enroll_inputa p label { 
+	display: inline-block;
+    width: 70px;
+    padding-right: 10px;
+    border-right: 1px solid #c2c2c2;
+    height: 26px;
+    padding-left: 10px;
+    line-height: 26px;
+}
+
+.enroll_inputa p input {
+    height: 26px;
+    padding-left: 10px;
+    line-height: 26px;
+    width: 235px;
+    border: 0;
+    font-size: 12px;
+}
+.mobile_captcha {
+	position: absolute;
+	right: 68px;
+	top:60px;
+    width: 120px;
+    background: #c2c2c2;
+    border: none;
+    height: 28px;
+    cursor: pointer;
+}
+.enroll_main label{
+	position: relative;
+	margin-top: 30px;
+	width: 360px;
+	display: inline-block;
+	margin-left: 33px;
+}
+.enroll_main p{
+	position: absolute;
+	top: 0;
+	left: 30px;
+} 
+.enroll_btn {
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	display:block;
+    width: 360px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    background-color: #ef1c22;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*.enroll_btn a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+}*/
+.enroll_inputa div{
+	color: #EF1C22;
+	padding-top: 5px;
+	padding-left:40px ;
+	line-height: 14px;
+}
+
+.span11{
+	display: none;
+}
+.span12{
+	display: none;
+}
+
+.span21{
+	display: none;
+}
+.span22{
+	display: none;
+}
+#span3{
+	display: none;
+}
+#span4{
+	display: none;
+}
+.alert{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(225,225,225,0.5);
+}
+.inform{
+	width: 260px;
+	min-heigh: 120px;
+	line-height: 40px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px 30px;
+	border: 1px solid dimgray;
+	border-radius: 10px;
+}
+.inform h2{
+	font-size: 16px;
+	width: 260px;
+}
+.inform .warn{
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 24px;
+
+}
+.inform .warn1{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+.inform .warn2{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: yellow;
+	color: red;
+}
+.inform h2 .tip{
+	font-size: 14px;
+	min-height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.inform p{
+	width: 240px;
+}
+.inform p a{
+	color: blue;
+}
+.inform h1{
+	width: 50px;
+	margin: 0 auto;
+}
+.inform h1 input{
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	color: gray;
+	display: inline-block;
+	padding: 5px 16px;
+	margin: 0 auto;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+}
+.inform h1 input:hover{
+	color: white;
+	background-color: gray;
+}

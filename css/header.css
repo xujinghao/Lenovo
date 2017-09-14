@@ -1,0 +1,520 @@
+#logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 60px;
+	height: 180px;
+}
+
+.top_box {
+	width: 100%;
+	height: 24px;
+	background-color: #000000;
+}
+
+.top_cont {
+	width: 1200px;
+	height: 24px;
+	margin: 0px auto;
+	font-size: 12px;
+}
+
+.top_ul {
+	width: 515px;
+	height: 25px;
+	margin-left: 11px;
+	text-align: center;
+	float: left;
+	/*border: 1px solid;*/
+}
+
+.top_ul>li {
+	float: left;
+}
+
+.top_ul .li1 {
+	width: auto;
+	height: 25px;
+	padding: 0px 10px 0px 10px;
+	line-height: 25px;
+}
+
+.top_ul>li>a {
+	color: #9e9e9e;
+}
+.top_ul>li>a:hover{
+	color: #ffffff;
+}
+
+.top_ul .li2 {
+	font-size: 14px;
+	position: relative;
+	top: 2px;
+	color: #9e9e9e;
+}
+
+.top_link {
+	width: 90px;
+	height: auto;
+	position: relative;
+	float: left;
+	z-index: 9998;
+	color: #c6c5c3;
+	cursor: pointer;
+}
+
+.top_title {
+	width: 84px;
+	padding-left: 10px;
+	min-height: 24px;
+	line-height: 24px;
+}
+
+.top_usepng {
+	width: 12px;
+	height: 12px;
+	margin-left: 4px;
+	display: block;
+	position: absolute;
+	left: 60px;
+	top: 7px;
+	background-image: url(../img/Lenovo_home/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+	background-position: -211px -25px;
+}
+
+.emline {
+	font-size: 14px;
+	color: #C6C5C3;
+}
+
+.top_link_ul {
+	width: 156px;
+	height: 245px;
+	border: 1px solid #d3d3d3;
+	position: absolute;
+	left: 0;
+	top: 24px;
+	z-index: 9999;
+	padding: 8px 0;
+	display: none;
+	background: #fff;
+}
+
+.top_link_li {
+	position: relative;
+	z-index: 111;
+	padding: 2px 0;
+}
+
+.top_link_ul a {
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 12px;
+}
+
+.link_a {
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 12px;
+}
+
+.icon {
+	width: 31px;
+	height: 31px;
+	float: left;
+	cursor: pointer;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+}
+.icon_sina{
+	background-position: -3px -269px;
+}
+.icon_yyq{
+	background-position: -38px -270px;
+}
+.icont_weixin{
+	background-position: -108px -269px;
+}
+.icont_tieba{
+	background-position: -209px -269px;
+}
+.icont_xqbl{
+	background-position: -176px -269px;
+}
+.icont_qzone{
+	background-position: -142px -269px;
+}
+.icont_shequ{
+	background-position: -243px -269px;
+}
+
+.link_a em {
+	display: inline-block;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #000;
+}
+
+.phone_ul {
+	width: 250px;
+	height: 120px;
+	border: 1px solid #d3d3d3;
+	position: absolute;
+	left: 10px;
+	top: 24px;
+	z-index: 9999;
+	padding: 8px 0;
+	display: none;
+	background: #fff;
+}
+
+.phone_ul .phone_d {
+	position: relative;
+	padding-left: 116px;
+	padding-top: 14px;
+}
+
+.phone_ul .phone_d>em {
+	position: absolute;
+	top: 20px;
+	left: 24px;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -88px -592px;
+	display: block;
+	width: 76px;
+	height: 76px;
+}
+
+.phone_ul .phone_d .t1 {
+	font-size: 13px;
+	line-height: 20px;
+	color: #7f807f;
+	margin-top: 10px;
+}
+
+.phone_ul .phone_d .phones {
+	width: 108px;
+	height: 38px;
+	margin-top: 4px;
+}
+
+.shop_news {
+	width: 400px;
+	height: 23px;
+	margin-left: 58px;
+	float: right;
+	margin-right: 25px;
+}
+
+.horn_ring {
+	width: 16px;
+	height: 14px;
+	margin-top: 4px;
+	background-image: url(../img/Lenovo_home/1cab7988-c2d0-4f41-a88c-1e2f198ac9a7_1.png);
+	float: left;
+}
+
+.shop_news_con {
+	width: 360px;
+	height: 23px;
+	margin-left: 25px;
+}
+
+.shop_news_main {
+	width: 360px;
+	height: 23px;
+}
+
+.shop_news_main>a {
+	height: 23px;
+	line-height: 23px;
+	color: #9e9e9e;
+}
+
+.new_header {
+	width: 100%;
+	height: 57px;
+	background-color: #EEEEEE;
+}
+.header_fixed{
+	position: fixed;
+	top: 57px;
+	margin-top: -57px;
+	z-index: 999;
+}
+
+.header {
+	width: 1200px;
+	height: 57px;
+	margin: 0 auto;
+}
+
+.nav_index {
+	width: 670px;
+	height: 57px;
+	margin-left: 9px;
+	float: left;
+}
+
+.nav_box {
+	width: 666px;
+	height: 56px;
+	margin: 0px auto;
+}
+
+.nav_box_ul {
+	width: 555px;
+	height: 30px;
+}
+
+.nav_box_ul .nav_namebox {
+	float: left;
+	font-size: 16px;
+	width: auto;
+	height: 56px;
+	line-height: 56px;
+	padding: 0px 12px 0px 12px;
+	position: relative;
+}
+
+.nav_box_ul .nav_namebox>a {
+	color: #000000;
+}
+
+.nav_box_ul .nav_namebox>a:hover {
+	color: #E2231A;
+}
+.nav_box_ul .nav_namebox .nav_usepng{
+	display: inline-block;
+    background-image: url(../img/Lenovo_home/icons_sprit.png);
+    background-repeat: no-repeat;
+    margin-left: -5px;    
+}
+.nav_box_ul .nav_namebox .nav_hot{
+	width: 32px;
+	height: 21px;
+    background-position: -268px -3px;
+    position: absolute;
+    right: -14px;
+    top: 5px;
+}
+.nav_box_ul .nav_namebox .nav_new{
+	width: 32px;
+	height: 21px;
+    background-position: -275px -198px;
+    position: absolute;
+    right: -14px;
+    top: 5px;
+}
+
+
+.serach {
+	width: 269px;
+	height: 32px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+
+.txt {
+	width: 220px;
+	height: 26px;
+	border: 1px solid #d2d2d2;
+	outline: 0;
+	font-size: 12px;
+	padding: 0 10px;
+	line-height: 26px;
+	margin-right: -1px;
+	background-color: #eee;
+	margin-top: 4px;
+	float: left;
+	font-family: "微软雅黑";
+}
+
+#goodInfo{
+	font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    font-family: 微软雅黑;
+    color: rgb(112,112,112);
+    margin-left: 5px;
+    position: absolute;
+    right: 40px;
+    top: 9px;
+}
+#goodInfo:hover{
+	background-color: #E2231A;
+	color: white;
+}
+
+.serach  .select{
+	width: 240px;
+	height: auto;
+	border: 1px solid #d2d2d2;
+	border-top: none;
+	background-color: #ffffff;
+	position: absolute;
+	top:32px;
+	left: 0px;
+	z-index: 999;
+	display: none;
+}
+.serach  .select li{
+	cursor: pointer;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: rgb(112,112,112);
+}
+.serach  .select  .Liline{
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	color: rgb(112,112,112);
+}
+
+.serch_box_img {
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-top: 4px;
+	background-image: url(../img/Lenovo_home/search.jpg);
+}
+
+.serch_box_img:hover {
+	background-image: url(../img/Lenovo_home/search_hover.jpg);
+}
+
+.login_zhuce {
+	float: left;
+	width: auto;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.top_loginbtn {
+	width: 30px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0px 10px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	border-right: 1px solid #333333;
+}
+
+
+.usernameLi{
+	min-width: 120px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	position: relative;	
+	text-align: center;
+}
+#userName{
+	display: inline-block;	
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 10px;
+	margin-top: 18px;
+}
+.login_zhuce .top_downs{
+	width: 10px;
+	height: 5px;
+	color: #000;
+	display: none;
+    position: absolute;
+    top: 24px;
+    left: 120px;
+	background-position: -62px -6px;
+	background-image: url(../img/Lenovo_home/4c41b2bb-56c5-4d5b-80d3-9d9c6432bd03_1.png);
+}
+.top_ups{
+	width: 10px;
+	height: 5px;
+	color: #000;
+	display: none;
+    position: absolute;
+    top: 24px;
+    left: 120px;
+	background-position: -72px -6px !important;
+	background-image: url(../img/Lenovo_home/4c41b2bb-56c5-4d5b-80d3-9d9c6432bd03_1.png);
+}
+.userHiddenUl{
+	width: 140px;
+	height: auto;	
+	display: block;
+	position: absolute;
+	display: none;
+	top: 40px;
+	left: -10px;
+	z-index: 9999;
+	background-color: #ffffff;
+	border: 1px solid #d3d3d3;
+	padding: 10px 0px; 
+}
+.userHiddenli{
+	width: 140px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 13px;
+}
+.login_zhuce .userHiddenUl .userHiddenli:hover{
+	color: #E2231A;
+}
+.header_car {
+	width: 64px;
+	height: 35px;
+	margin-left: 10px;
+	float: left;
+	margin-top: 5px;
+	position: relative;
+}
+.header_car span{
+	color: #ffffff;
+}
+.carimg {
+	cursor: pointer;
+	width: 20px;
+	height: 18px;
+	display: block;
+	margin-top: 15px;
+	float: left;
+	background-image: url(../img/Lenovo_home/car.jpg);
+}
+
+.carnum {
+	font-size: 11px;
+    position: absolute;
+    display: inline-block;
+    background-image: url(https://p1.lefile.cn/g1/M00/00/F0/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png);
+    background-position: -185px -201px;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    line-height: 18px;
+    padding-left: 2px;
+    top: 5px;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联想官方社区-出错提示页</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://pccss1.clubstatic.lenovo.com.cn/static/maintenance/v3/css/main.css"/>
+</head>
+<body>
+<div class="notfound_wrap">
+    <!--发表头部-->
+    <header>
+        <h1>联想社区-页面错误 Ver2.5</h1>
+        <a href="#"><img src="http://pcs1.clubstatic.lenovo.com.cn/static/maintenance/v3/images/Postdetails_headleft.png" alt=""/></a>
+    </header><!--end-->
+    <div class="notfound_box" align="center">
+        <h1>温馨提示</h1>
+        <img src="http://pcs1.clubstatic.lenovo.com.cn/static/maintenance/v3/images/error_img.png" alt=""/>
+        <p>尊敬的用户!您访问的页面不存在!请访问其他页面!</p>
+    </div>
+</div>
+</body>
+</html>

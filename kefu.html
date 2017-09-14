@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Lenovo24小时在线客服</title>
+		<link rel="shorcut icon" href="http://www.lenovo.com.cn/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/kefu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<style type="text/css">
+
+		</style>
+	</head>
+
+	<body>
+		<div id="body">
+			<!--头部-->
+			<div class="header">
+				<div class="header_left">
+					<img src="img/lenovo-kefu/logo_icon.png" />
+				</div>
+				<div class="header_right">
+					<img class="logo_right" src="img/lenovo-kefu/bg_corner_tl.png" />
+				</div>
+			</div>
+			<div class="box">
+				<div class="box_left">
+					<div class="box_left_dui">
+						<div class="box_box">
+							<ul class="index_box">
+								<li class="index_box_con cl8">
+									<div class="index_box_icon">
+										<p>
+											<span>小乐</span>
+											<span class="messageDate">2017-08-16 09:15:52</span>
+										</p>
+									</div>
+									<div class="box_box_head1">
+										<img class="vivo_img" src="img/lenovo-kefu/header_robot.png" alt="" />
+									</div>
+									<div class="box_box_right">
+										<div class="box_box_con1">
+											<div class="box_box_content1">
+												<div class="box_box_ico5"> <img src="img/lenovo-kefu/headright_1.png"> </div>
+												<div class="box_box_ico6"> <img src="img/lenovo-kefu/headright_2.png"> </div>
+												<div class="box_box_ico7"> <img src="img/lenovo-kefu/headright_3.png"> </div>
+												<div class="box_box_ico8"> <img src="img/lenovo-kefu/headright_4.png"> </div>
+												<div class="box_box_wz1">欢迎使用小乐智能客服<img style="display:inline;" src="http://kefu.vivo.com.cn/robot/resources/emoticon/000000005143e27a015143ed92860114"></div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box_left_title">
+						<div id="toolbar">
+							<div id="postionDiv">
+								<div id="emoDiv">
+									<div class="emo_title">
+										<a id="emoCloseBtn" href="#" class="emo_close_btn">关闭</a>
+									</div>
+									<div style="background-color: #ffffff;"><img id="emoImg" src="images/vivo_client/emoticon.jpg" usemap="#faceMap"></div>
+									<map id="faceMap" name="faceMap">
+									</map>
+								</div>
+								<div id="fontDiv">
+									<select id="font_size_sel" name="" class="font_size">
+										<option value="8">8</option>
+										<option value="12">12</option>
+										<option value="14">14</option>
+										<option value="16">16</option>
+										<option value="20">20</option>
+										<option value="22">22</option>
+									</select>
+									<a id="font_bold" href="#" class="t_B" fontweight="normal"></a>
+									<a id="font_style" href="#" class="t_I" fontstyle="normal"></a>
+									<a id="font_underline" href="#" class="t_U" textdecoration="none"></a>					
+								</div>
+							</div>
+							<a id="emoticonBtn" href="#" class="emobtn">&nbsp;</a>
+							<a id="fontBtn" href="#" class="fontbtn">&nbsp;</a>
+							<a id="upload_pic" href="javascript:upload()" class="uploadbtn">&nbsp;</a>
+							<div id="biaoqing">这两个东西其实没啥用，就是个样式</div>
+						</div>
+					</div>
+					<div class="box_left_bottom">
+						<div class="box_left_bottom_text">
+							<textarea id="inputArea" class="inputbox_default_style"></textarea>
+						</div>
+						<div class="box_left_bottom_btn">
+							<button id="inputButtonDiv" class="box_btn_send" name="" type="button">发送</button>
+						</div>
+						<div class="none">
+							<p class="nonep">
+								您不能发送空白消息
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="box_right">
+					这里是一大堆乱七八糟的链接，我不想做，就没写
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				$("#emoticonBtn").click(function(){
+					$("#biaoqing").toggle(1000);
+				});
+				$("#fontBtn").click(function(){
+					$("#biaoqing").toggle(1000);
+				});
+				function times() {
+					var date = new Date();
+					var year = date.getFullYear();
+					var month = date.getMonth() + 1;
+					var day = date.getDate();
+					var hour = date.getHours();
+					var minute = date.getMinutes();
+					var second = date.getSeconds();
+					var timer = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':' + second;
+					return timer;
+				}
+
+				$("#inputButtonDiv").click(function(event) {
+					var inputText = $("#inputArea").val();
+					var timer = times();
+					if(inputText == "") {
+						$(".none").css("display", "block");
+					} else {
+						$(".none").css("display", "none");
+						tianJia(inputText, timer);
+						Send(inputText);
+					}
+				});
+
+				$(window).keydown(function(event) {
+					var inputText = $("#inputArea").val();
+					var timer = times();
+					if(event.keyCode == 13) {
+						if(inputText == "") {
+							$(".none").css("display", "block");
+						} else {
+							$(".none").css("display", "none");
+							tianJia(inputText, timer);
+							Send(inputText);
+						}
+						event.returnValue = false;
+						return false;
+					}
+				});
+
+				function gunDongTiao() {
+					var boxHeight = parseInt($(".box_left_dui").css("height"));					
+//					$(".box_left_dui").scrollTop($(".box_left_dui")[0].scrollHeight);					
+					$(".box_left_dui").animate({
+						scrollTop:$(".box_left_dui")[0].scrollHeight
+					},500);
+				}
+				var xmlHttp;
+				function Send(str) {
+					if(str.length == 0) {
+						document.getElementById("txtHint").innerHTML = "";
+						return;
+					}
+					xmlHttp = GetXmlHttpObject();
+					if(xmlHttp == null) {
+						alert("您的浏览器不支持AJAX！");
+						return;
+					}
+					var url = "http://www.tuling123.com/openapi/api?key=e57582341b164003a4ae977e989b20bd";
+					url = url + "&info=" + str;
+					xmlHttp.onreadystatechange = stateChanged;
+					xmlHttp.open("POST", url, true);
+					xmlHttp.send(null);
+					document.getElementById("inputArea").value = "";
+				}
+
+				function stateChanged() {
+					var timer = times();
+					if(xmlHttp.readyState == 4) {
+						var msg = eval('(' + xmlHttp.responseText + ')');
+						document.getElementById("inputArea").innerHTML = msg.text;
+						robot(msg.text, timer);
+					}
+
+				}
+
+				function GetXmlHttpObject() {
+					var xmlHttp = null;
+					try {
+						// Firefox, Opera 8.0+, Safari
+						xmlHttp = new XMLHttpRequest();
+					} catch(e) {
+						// Internet Explorer
+						try {
+							xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+						} catch(e) {
+							xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+						}
+					}
+					return xmlHttp;
+				}
+
+				function tianJia(val, time) {
+					var mySelf = document.querySelector(".index_box");
+
+					//创建说话div
+					var newDiv = document.createElement("div");
+					newDiv.className = "index_box_con_r";
+					mySelf.appendChild(newDiv);
+
+					//创建说话标题div
+					var title = document.createElement("div");
+					title.className = "index_box_icon1";
+					newDiv.appendChild(title);
+					//创建说话标题div p
+					var myName = document.createElement("p");
+					myName.innerHTML = "我";
+					title.appendChild(myName);
+					var myTime = document.createElement("span");
+					myTime.innerHTML = time;
+					title.appendChild(myTime);
+
+					//创建说话头像
+					var img = document.createElement("div");
+					img.className = "box_box_head";
+					newDiv.appendChild(img);
+
+					//创建头像图片img
+					var personImg = document.createElement("img");
+					personImg.src = "img/lenovo-kefu/left_ico1.png";
+					img.appendChild(personImg);
+					//创建说话文本框
+					var textBox = document.createElement("div");
+					textBox.className = "box_box_left";
+					newDiv.appendChild(textBox);
+
+					//创建说话文本框1
+					var textBox1 = document.createElement("div");
+					textBox1.className = "box_box_con";
+					textBox.appendChild(textBox1);
+
+					//创建说话文本框内容
+					var textContent = document.createElement("div");
+					textContent.className = "box_box_content";
+					textBox1.appendChild(textContent);
+
+					//创建说话文本框内容角标图片1
+					var textContentJiaobiao1 = document.createElement("div");
+					textContentJiaobiao1.className = "box_box_ico1";
+					textContent.appendChild(textContentJiaobiao1);
+					//创建说话文本框内容角标图片img1
+					var textContentJiaobiaoImg1 = document.createElement("img");
+					textContentJiaobiaoImg1.src = "img/lenovo-kefu/headleft_1.png";
+					textContentJiaobiao1.appendChild(textContentJiaobiaoImg1);
+
+					//创建说话文本框内容角标图片2
+					var textContentJiaobiao2 = document.createElement("div");
+					textContentJiaobiao2.className = "box_box_ico2";
+					textContent.appendChild(textContentJiaobiao2);
+					//创建说话文本框内容角标图片img2
+					var textContentJiaobiaoImg2 = document.createElement("img");
+					textContentJiaobiaoImg2.src = "img/lenovo-kefu/headleft_2.png";
+					textContentJiaobiao2.appendChild(textContentJiaobiaoImg2);
+					//创建说话文本框内容角标图片3
+					var textContentJiaobiao3 = document.createElement("div");
+					textContentJiaobiao3.className = "box_box_ico3";
+					textContent.appendChild(textContentJiaobiao3);
+					//创建说话文本框内容角标图片img3
+					var textContentJiaobiaoImg3 = document.createElement("img");
+					textContentJiaobiaoImg3.src = "img/lenovo-kefu/headleft_3.png";
+					textContentJiaobiao3.appendChild(textContentJiaobiaoImg3);
+					//创建说话文本框内容角标图片4
+					var textContentJiaobiao4 = document.createElement("div");
+					textContentJiaobiao4.className = "box_box_ico4";
+					textContent.appendChild(textContentJiaobiao4);
+					//创建说话文本框内容角标图片img4
+					var textContentJiaobiaoImg4 = document.createElement("img");
+					textContentJiaobiaoImg4.src = "img/lenovo-kefu/headleft_4.png";
+					textContentJiaobiao4.appendChild(textContentJiaobiaoImg4);
+
+					//创建说话文本框内容div
+					var textContentText = document.createElement("div");
+					textContentText.className = "box_box_wz";
+					textContentText.innerHTML = val;
+					textContent.appendChild(textContentText);
+					gunDongTiao();
+				}
+
+				function robot(val, time) {
+					var robot = document.querySelector(".index_box");
+
+					//创建robot说话li
+					var newDiv = document.createElement("li");
+					newDiv.className = "index_box_con";
+					robot.appendChild(newDiv);
+
+					//创建说话标题div
+					var title = document.createElement("div");
+					title.className = "index_box_icon";
+					newDiv.appendChild(title);
+					//创建说话标题div p
+					var myName = document.createElement("p");
+					myName.innerHTML = "小乐";
+					title.appendChild(myName);
+					//创建大儿子
+					var daerzi = document.createElement("span");
+					daerzi.innerHTML = "小乐";
+					myName.appendChild(daerzi);
+					var myTime = document.createElement("span");
+					myTime.className = "messageDate";
+					myTime.innerHTML = time;
+					myName.appendChild(myTime);
+
+					//创建说话头像
+					var img = document.createElement("div");
+					img.className = "box_box_head1";
+					newDiv.appendChild(img);
+
+					//创建头像图片img
+					var personImg = document.createElement("img");
+					personImg.src = "img/lenovo-kefu/header_robot.png";
+					img.appendChild(personImg);
+					//创建说话文本框
+					var textBox = document.createElement("div");
+					textBox.className = "box_box_right";
+					newDiv.appendChild(textBox);
+
+					//创建说话文本框1
+					var textBox1 = document.createElement("div");
+					textBox1.className = "box_box_con1";
+					textBox.appendChild(textBox1);
+
+					//创建说话文本框内容
+					var textContent = document.createElement("div");
+					textContent.className = "box_box_content1";
+					textBox1.appendChild(textContent);
+
+					//创建说话文本框内容角标图片1
+					var textContentJiaobiao1 = document.createElement("div");
+					textContentJiaobiao1.className = "box_box_ico5";
+					textContent.appendChild(textContentJiaobiao1);
+					//创建说话文本框内容角标图片img1
+					var textContentJiaobiaoImg1 = document.createElement("img");
+					textContentJiaobiaoImg1.src = "img/lenovo-kefu/headright_1.png";
+					textContentJiaobiao1.appendChild(textContentJiaobiaoImg1);
+
+					//创建说话文本框内容角标图片3
+					var textContentJiaobiao2 = document.createElement("div");
+					textContentJiaobiao2.className = "box_box_ico6";
+					textContent.appendChild(textContentJiaobiao2);
+					//创建说话文本框内容角标图片img2
+					var textContentJiaobiaoImg2 = document.createElement("img");
+					textContentJiaobiaoImg2.src = "img/lenovo-kefu/headright_2.png";
+					textContentJiaobiao2.appendChild(textContentJiaobiaoImg2);
+					//创建说话文本框内容角标图片3
+					var textContentJiaobiao3 = document.createElement("div");
+					textContentJiaobiao3.className = "box_box_ico7";
+					textContent.appendChild(textContentJiaobiao3);
+					//创建说话文本框内容角标图片img3
+					var textContentJiaobiaoImg3 = document.createElement("img");
+					textContentJiaobiaoImg3.src = "img/lenovo-kefu/headright_3.png";
+					textContentJiaobiao3.appendChild(textContentJiaobiaoImg3);
+					//创建说话文本框内容角标图片4
+					var textContentJiaobiao4 = document.createElement("div");
+					textContentJiaobiao4.className = "box_box_ico8";
+					textContent.appendChild(textContentJiaobiao4);
+					//创建说话文本框内容角标图片img4
+					var textContentJiaobiaoImg4 = document.createElement("img");
+					textContentJiaobiaoImg4.src = "img/lenovo-kefu/headright_4.png";
+					textContentJiaobiao4.appendChild(textContentJiaobiaoImg4);
+
+					//创建说话文本框内容div
+					var textContentText = document.createElement("div");
+					textContentText.className = "box_box_wz1";
+					textContentText.innerHTML = val;
+					textContent.appendChild(textContentText);
+
+					gunDongTiao();
+				}
+
+			});
+		</script>
+	</body>
+
+</html>

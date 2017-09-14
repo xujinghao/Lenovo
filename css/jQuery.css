@@ -1,0 +1,15 @@
+.color1{
+	border-color: #eeeeee;
+}
+.color2{
+	border-color: #b5b5b5;
+}
+.color3{
+	border-color: #e2231a;
+}
+.checked{
+	border: 1px solid #e2231a;
+}
+.nochecked{
+	border: 1px solid #c9c9c9;
+}

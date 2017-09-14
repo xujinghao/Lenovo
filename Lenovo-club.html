@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>联想官方社区-联想电脑_联想手机_ThinkPad_Motorola_官方论坛</title>
+		<link rel="stylesheet" type="text/css" href="css/club.css" />
+		<link rel="shortcut icon" href="http://club.lenovo.com.cn/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+	</head>
+
+	<body>
+
+		<!--头部导航-->
+		<div class="pub_header">
+			<div class="pub_header_wrap">
+				<div class="pub_header_logo">
+					<a href="http://club.lenovo.com.cn/">
+						<img src="img/Lenovo_club/logowhite.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="pub_header_right">
+				<ul>
+					<li>
+						<a href="javascript:;">PC社区</a>
+					</li>
+					<li>
+						<a href="javascript:;">ThinkPad社区</a>
+					</li>
+					<li>
+						<a href="javascript:;">手机社区</a>
+					</li>
+					<li>
+						<a href="javascript:;">Moto社区</a>
+					</li>
+					<li class="navheader_mar">|</li>
+					<li class="navheader_mar">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/scicon.png" alt="" /> 联想商城
+						</a>
+					</li>
+					<li class="navheader_mar">|</li>
+					<li id="phone_appicon" class="navheader_mar">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/icon_phone.png" alt="" /> 联想社区APP
+							<img src="img/Lenovo_club/icon_downpull.png" alt="" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--隐藏的二维码-->
+			<div class="navphone_app">
+				<img class="navphone_app_img" src="img/Lenovo_club/navphone_appimg.png" alt="" />
+				<p class="navphone_app_title">下载手机APP</p>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<!--菜单栏-->
+		<div class="pub_nav">
+			<div class="pub_nav_wrap">
+				<div class="pub_nav_wrap_left">
+					<ul>
+						<li class="pub_nav_wrap_high">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/lenovo_img.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">论坛</a>
+						</li>
+						<li id="show_list">
+							<a href="javascript:;">
+								板块
+							</a>
+						</li>
+						<li id="show_list">
+							<a href="javascript:;">
+								随手拍
+							</a>
+						</li>
+						<li id="show_list">
+							<a href="javascript:;">
+								社区商店
+							</a>
+						</li>
+					</ul>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="pub_nav_wrap_right">
+					<div class="pub_nav_search">
+						<form>
+							<input type="text" name="srchtxt" id="search_text" placeholder="请输入搜索内容" value="" />
+							<a href="javascript:void(0);">
+								<img src="img/Lenovo_club/magnifie.png" alt="" />
+							</a>
+							<input type="hidden" name="searchsubmit" value="yes" />
+						</form>
+					</div>
+					<ul class="login_zhuce">
+						<li class="pub_header_right_hide">
+							<a href="javascript:;">登录</a>
+						</li>
+						<li class="header_margin">|</li>
+						<li class="pub_header_right_hide header_margin">
+							<a href="javascript:;">注册</a>
+						</li>
+					</ul>
+					<ul class="username_info">
+						<li>
+							<a href="javascript:;" id="show_menu">
+								<img class="img1" src="img/Lenovo_club/mail.png" />
+							</a>
+						</li>
+						<li id="userLogo">
+							<a href="javscript:;">
+								<img class="img2" src="img/Lenovo_club/noavatar_small.gif" />
+							</a>
+							<div class="pub_header_marking">
+								<div class="marking_triangle">
+									<em>◆</em>
+									<span>◆</span>
+								</div>
+								<div class="pub_header_markingtop">
+									<p class="pub_header_marktop_onep">昵称：18322177568</p>
+									<p>等级：LV1</p>
+									<p class="pub_header_marktop_lastp">金币：<span id="userGold">100</span></p>
+								</div>
+								<div class="pub_header_markingbottom">
+									<ul>
+										<li><b><img src="img/Lenovo_club/star.png"/></b>
+											<a href="javascript:;">收藏</a>
+										</li>
+										<li><b><img src="img/Lenovo_club/Medal2.jpg"/></b>
+											<a href="javascript:;">任务</a>
+										</li>
+										<li><b><img src="img/Lenovo_club/setting1.png"/></b>
+											<a href="javascript:;">设置</a>
+										</li>
+										<li><b><img src="img/Lenovo_club/logout1.png"/></b>
+											<a href="javascript:;" id="quitLog">退出</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<!--页面主题-->
+		<div class="boss">
+			<!--图片轮播-->
+			<div class="banner">
+				<a class="homepage_banner_pre prev" href="javascript:;">
+					<img src="img/Lenovo_club/homepage_banner_leftbtn.png" />
+				</a>
+				<ul class="banner_ul">
+					<li class="banner_li" style="display: block;">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/0 (4).jpg" alt="" />
+						</a>
+					</li>
+					<li class="banner_li">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/0 (3).jpg" alt="" />
+						</a>
+					</li>
+					<li class="banner_li">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/0.jpg" alt="" />
+						</a>
+					</li>
+					<li class="banner_li">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/0 (1).jpg" alt="" />
+						</a>
+					</li>
+					<li class="banner_li">
+						<a href="javascript:;">
+							<img src="img/Lenovo_club/0 (2).jpg" alt="" />
+						</a>
+					</li>
+				</ul>
+				<a class="homepage_banner_next next" href="javascript:;">
+					<img src="img/Lenovo_club/homepage_banner_rightbtn.png" />
+				</a>
+				<div class="hd">
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<div class="club">
+				<div class="homepage_leftside_box">
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【联想女生】我与小新的5日约会</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/115021n0166ttg7gg0u04t.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>相处的每一刻都是开心~</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">Jooni~</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">MIIX二合一笔记本</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【小狼杂谈】My story with the ThinkPad </a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/153516z18bzx3st31h8p19.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>第一次邂逅ThinkPad，大概是2005年了·····~</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">醉卧沙场啸</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">ThinkPad</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【苏葩说】摩影模块投影原理大剖析</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/162402ktesaqog3btxhoqj.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>摩影模块如何实现小巧机身内置投影功能呢？</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">spamsu~</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">Moto Z² 系列</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【K君·玩机】跟我一起做，让任务栏透明</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/144611exmzzbzj0asdybjd.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>这种风格的桌面，你喜欢吗？</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">MoeKirito</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">拯救者笔记本</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【科技情报站】这家公司竟研发可自动修复裂屏的黑科技</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/164842dt3ff0zo04qehgh9.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>手机再也不怕不怕摔！</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">白骨</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">联想杂谈</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">“两面派”如何做？聊聊联想TAB4幕后的故事</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/115218hldxyxx3f2cz2331.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>娃儿离不开娘，产品离不开Ta们</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">悲伤的小天鹅</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">联想平板系列</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【First Look】Moto Z² Play黑武士限量版精美图赏</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/151356lluwzssusu2wfsb6.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>谁说黑色不能耀眼？</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">仙女</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">Moto Z² 系列</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【晒单】我选择最新高配拯救者R720 却不用它来玩游戏!</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/113653whoydohhrzu0u8bz.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>相处的每一刻都是开心~</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">bjzzxhzl</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">拯救者笔记本</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【摩玩堂】王者荣耀攻略宝典——墨子二技能carry全场</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/114717x6ob8qgtizrdbtut.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>人称“墨一炮”，输出超高伤害少不了。</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">葡萄干美少女</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">Moto Z² 系列</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="homepage_leftside">
+						<h1>
+							<a href="javascript:;">【用户晒单】性价比之选 联想小新锐7000测评</a>
+						</h1>
+						<div class="homepage_leftside_img">
+							<a href="javascript:;">
+								<img src="img/Lenovo_club/115515vp4eleue71f6p7k3.jpg" alt="" />
+							</a>
+						</div>
+						<div class="homepage_leftside_lastp">
+							<a href="javascript:;">
+								<p>轻薄的机身、暗黑的外观、丰富的接口，总之就是棒棒哒！</p>
+							</a>
+						</div>
+						<div class="homepage_leftside_text">
+							<div class="homepage_leftside_tl">
+								<p>
+									<a href="javascript:;">亮亮~</a>
+									<img src="img/Lenovo_club/155326oichkhghnbdkoinz.png" alt="" /> &nbsp;|&nbsp;&nbsp;&nbsp;2017-07-28&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+									<a href="javascript:;">小新笔记本</a>
+								</p>
+							</div>
+							<div class="homepage_leftside_tr">
+								<ul>
+									<li class="homepage_leftside_trone">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trtwo">
+										<b></b>
+										<span>3665</span>
+									</li>
+									<li class="homepage_leftside_trthree">
+										<a href="javascript:;"><b></b><span>分享</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="page_pub_paging">
+						<div class="page_pub_paging_box">
+							<ul class="pagination">
+								<li id="prevPage" class="pre_pagings">
+									<a href="javascript:;">上一页</a>
+								</li>
+								<li class="count_paging count_paginghigh">
+									<a href="javascript:;">1</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">2</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">3</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">4</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">5</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">6</a>
+								</li>
+								<li class="count_paging">
+									<a href="javascript:;">7</a>
+								</li>
+								<li id="nextPage" class="pre_pagings">
+									<a href="javascript:;">下一页</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="sqhomepage_mainwrapr">
+					<!--签到-->
+					<div class="pub_signin">
+						<div class="pub_signin_box">
+							<div class="pub_signin_right">
+								<span id="qiandao">签到</span>
+							</div>
+							<div class="pub_signin_left">
+								<p class="pub_signin_left_p">您已连续签到<span>0</span>天</p>
+								<p class="pub_signin_left_p2">今日签到数<span>4247</span>人</p>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+					<!--版块排行-->
+					<div class="pub_Platenumber_wrap">
+						<h1>
+							<a href="javascript:;" class="ph">版块排行</a></h1>
+						<div class="pub_Platenumber_box">
+							<ul>
+								<li>
+									<b class="pub_Platenumber_high">1</b>
+									<a href="javascript:;">ZUK Z2</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b class="pub_Platenumber_high">2</b>
+									<a href="javascript:;">ZUK Z2 Pro</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b class="pub_Platenumber_high">3</b>
+									<a href="javascript:;">主题苑</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>4</b>
+									<a href="javascript:;">小新笔记本</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>5</b>
+									<a href="javascript:;">Moto Z 系列</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>6</b>
+									<a href="javascript:;">联想台式机</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>7</b>
+									<a href="javascript:;">ZUK Edge</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>8</b>
+									<a href="javascript:;">联想杂谈</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>9</b>
+									<a href="javascript:;">MIIX二合一笔记本</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+								<li>
+									<b>10</b>
+									<a href="javascript:;">乐檬系列</a>
+									<span>341
+										<img src="img/Lenovo_club/arrow_thin_up.png" alt="" />
+									</span>
+								</li>
+							</ul>
+							<p>
+								<a href="javascript:;">全部版块</a>
+							</p>
+						</div>
+					</div>
+					<!--社区活动-->
+					<div class="pub_Attention">
+						<h1>社区活动</h1>
+						<div class="pub_Attention_box">
+							<div class="dl">
+								<div class="dt">
+									<a href="javascript:;">
+										<img src="img/Lenovo_club/techworld2017.jpg" alt="" />
+									</a>
+								</div>
+								<div class="dt" style="padding-top: 0px;">
+									<a href="javascript:;">
+										<img src="img/Lenovo_club/clubactive_zhibo.jpg" alt="" />
+									</a>
+								</div>
+								<div class="dt" style="padding-top: 0px;">
+									<a href="javascript:;">
+										<img src="img/Lenovo_club/clubactive_zhibo.png" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--推荐用户-->
+					<div class="pub_introductoryoffer">
+						<h1>推荐用户</h1>
+						<div class="pub_introductoryoffer_box">
+							<ul>
+								<li>
+									<a href="javascript：；">
+										<img src="img/Lenovo_club/77_avatar_small_ver1472090086.jpg" alt="" /> 佳妹_佳佳
+									</a>
+									<span>LV8</span>
+									<b>910</b>
+								</li>
+								<li>
+									<a href="javascript：；">
+										<img src="img/Lenovo_club/80_avatar_small_ver1483355876.jpg" alt="" /> 皇甫定涛
+									</a>
+									<span>LV7</span>
+									<b>849</b>
+								</li>
+								<li>
+									<a href="javascript：；">
+										<img src="img/Lenovo_club/07_avatar_small_ver1489497103.jpg" alt="" /> 我是女神妹妹
+									</a>
+									<span>LV8</span>
+									<b>4453</b>
+								</li>
+								<li>
+									<a href="javascript：；">
+										<img src="img/Lenovo_club/74_avatar_small_ver1492087829.jpg" alt="" /> renjian
+									</a>
+									<span>LV10</span>
+									<b>11816</b>
+								</li>
+								<li>
+									<a href="javascript：；">
+										<img src="img/Lenovo_club/28_avatar_small_ver1465090458.jpg" alt="" /> zfgwz
+									</a>
+									<span>LV10</span>
+									<b>2458</b>
+								</li>
+								<p style="height: 30px;"></p>
+							</ul>
+						</div>
+					</div>
+					<!--官方资讯-->
+					<div class="pub_CompanyEvents">
+						<h1>官方资讯</h1>
+						<div class="pub_CompanyEvents_box">
+							<ul>
+								<li>
+									<a href="javascript:;">我们有官方资讯啦！更多惊喜，尽在官方资讯！</a>
+								</li>
+								<li>
+									<a href="javascript:;">鹿晗代言 小新2017沪上花火夜发布全线轻薄笔记本</a>
+								</li>
+								<li>
+									<a href="javascript:;">25年，ThinkPad是如何成为一个传奇的？</a>
+								</li>
+								<li>
+									<a href="javascript:;">游戏本称王 联想拯救者R720系列评测</a>
+								</li>
+								<li>
+									<a href="javascript:;">Moto Z 入选MWC 2017 GLOMO最佳手机和设备</a>
+								</li>
+								<li>
+									<a href="javascript:;">CES 2017 联想三项产品获得最佳创新奖</a>
+								</li>
+								<li>
+									<a href="javascript:;">Moto Z 获2016年数字尾巴年度评选之年度最佳创新奖</a>
+								</li>
+								<li>
+									<a href="javascript:;">Moto获2016 智能手机年度传媒榜：年度创新品牌奖</a>
+								</li>
+								<li>
+									<a href="javascript:;">Moto Z Play获2016科技风云榜最佳影音娱乐手机奖</a>
+								</li>
+								<li>
+									<a href="javascript:;">2016消费电子年终评选：Moto Z 手机获得“匠心产品奖</a>
+								</li>
+							</ul>
+							<p style="height: 10px;"></p>
+						</div>
+					</div>
+					<!--关注官方资讯-->
+					<div class="pub_social">
+						<h1>关注官方资讯</h1>
+						<div class="pub_social_box">
+							<div class="dl">
+								<div class="dt">
+									<a href="javascript:;">
+										<img src="img/Lenovo_club/pub_Attention_box_img.png" alt="" />
+									</a>
+								</div>
+								<p style="font-size: 14px;text-align: center;">扫一扫优惠福利早知道</p>
+							</div>
+							<p style="height: 30px;"></p>
+						</div>
+					</div>
+
+				</div>
+				<div class="links">
+					<div class="friend_link">友情链接</div>
+					<div class="link_nav">
+						<a href="javascript:;">联想官网</a>
+						<a href="javascript:;">ThinkPad</a>
+						<a href="javascript:;">Motorola</a>
+						<a href="javascript:;">联想手机商城</a>
+						<a href="javascript:;">乐商店</a>
+						<a href="javascript:;">绿茶浏览器</a>
+						<a href="javascript:;">联想服务</a>
+						<a href="javascript:;">联想手机服务</a>
+						<a href="javascript:;">联想乐助手</a>
+						<a href="javascript:;">联想乐服务</a>
+						<a href="javascript:;">IT圈</a>
+						<a href="javascript:;">智友论坛</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div style="clear: both;"></div>
+
+		<div class="rightBar">
+			<ul>
+				<li class="page_pub_Stickone">
+					<a href="javascript:;"></a>
+				</li>
+				<li class="page_pub_Sticktwo">
+					<a href="javascript:;"></a>
+				</li>
+				<li class="page_pub_Stickthree">
+					<a id="totop" href="javascript:;"></a>
+				</li>
+				<li id="codeimg">
+					<img class="img1" src="img/Lenovo_club/navphone_appimg.png" />
+					<p>扫码下载<br />联想社区APP</p>
+				</li>
+			</ul>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="pub_footer_top">
+				<a href="javascript:;">关于联想</a>
+				<span>|</span>
+				<a href="javascript:;">联系我们</a>
+				<span>|</span>
+				<a href="javascript:;">工作机会</a>
+				<span>|</span>
+				<a href="javascript:;">新闻中心</a>
+				<span>|</span>
+				<a href="javascript:;">销售网点</a>
+				<span>|</span>
+				<a href="javascript:;">服务网点</a>
+			</div>
+			<div class="pub_footer_bottom">
+				<span>版权所有：1998-2017 联想集团</span>
+				<span>|</span>
+				<a href="javascript:;">法律公告</a>
+				<span>|</span>
+				<a href="javascript:;">隐私保护</a>
+				<span>|</span>
+				<a href="javascript:;">京ICP备11035381号</a>
+				<span>|</span>
+				<span>京公网安备110108007970号</span>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/club.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

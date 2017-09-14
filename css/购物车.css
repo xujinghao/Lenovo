@@ -1,0 +1,391 @@
+#top-box{
+	width: 100%;
+	height: 38px;
+    background: #000;
+}
+#tianjia{
+	cursor: pointer;
+}
+input{
+	cursor: pointer;
+}
+#top-box .top{
+	width: 1200px;
+	margin: 0 auto;
+}
+#top-box .top .top-right{
+	float: right;
+	/*overflow: hidden;*/
+}
+#top-box .top .top-right li{
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	padding: 0 5px;
+	color: white;
+	cursor: pointer;
+}
+#top-box .top .top-right .noLink{
+	display: block;
+}
+.usernameLi{
+	position: relative;
+}
+#top-box .top .top-right .usernameLi:hover{
+	color: #E2231A;
+}
+.linkStart{
+	display: none;
+}
+#top-box .top .top-right .userHiddenUl{
+	width: 140px;
+	height: auto;	
+	display: none;
+	position: absolute;
+	top: 37px;
+	left: -10px;
+	background-color: #ffffff;
+	border: 1px solid red;
+	padding: 10px 0px; 
+}
+.userHiddenUl .userHiddenli{
+	width: 140px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 13px;
+	color: red;
+}
+.userHiddenUl .userHiddenli:hover{
+	color: #E2231A;
+}
+
+#top-box .top .top-right a{
+	color: white;
+}
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	z-index: 222;
+}
+#main .main01{
+	margin: 40px 0;
+}
+#main .main01 .left{
+	float: left;
+	overflow: hidden;
+}
+#main .main01 .right{
+	float: right;
+	overflow: hidden;
+}
+
+#main .main02{
+	margin-bottom: 20px;
+	clear: both;
+	padding-top: 40px;
+	}
+.bc_table tr th {
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 15px;
+    background: #f8f8f8;
+}
+#main .main02 table{
+	font-size: 14px;
+    width: 100%;
+    border: 1px solid #d9d8d6;
+    /*border-bottom: 0;*/
+    margin-bottom: 10px;
+}
+/*#main .main02 .tab{
+	height: 266px;
+}*/
+#main .main02 .tab tr th{
+    background: white;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/*i{
+	cursor: pointer;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}	
+.active1{
+	background-image: url(../img/car/duigou01.png);
+}	
+.active2{
+	background-image: url(../img/car/duigou02.png);
+}*/
+#main .main02 .tab .img01{
+	font-size: 12px;
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+/*#main .main02 .tab tr{
+	position: relative;
+}*/
+#main .main02 .tab a{
+	color: #000000;
+}
+#main .main02 .tab a:hover{
+	color: #E2231A;
+}
+#main .main02 .tab .td1{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+#main .main02 .tab .guige{
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+.current_price{
+	color: #E2231A;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.i_box {
+    display: block;
+    width: 94px;
+    margin: 0 auto;
+}
+.i_box input[type = "button"] {
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    float: left;
+    border: 1px solid #d2d2d2;
+}
+.i_box .pro_less{
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	border: 0;
+}
+.i_box .pro_num{
+	text-align: center;
+	width: 60px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.i_box .pro_add{
+	position: absolute;
+	top: 50px;
+	left: 110px;
+}
+#main .main02 .tab .td2{
+	position: absolute;
+	top: 50px;
+	left: 55px;
+	color: #E2231A;
+}
+#main .main02 .tab .td3{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#main .main02 .tab .td3 a:hover{
+	color: #000000;
+}
+#main .main02 .tab .td4{
+	position: absolute;
+	top: 50px;
+	left: 13px;
+}
+#main .main02 .tab .tr2{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    height: 100px;
+    width: 1140px;
+}
+#main .main02 .tab .tr2 .p1{
+	position: absolute;
+	top: 0px;
+	left: 13px;
+}
+#main .main02 .tab .tr2 .p2{
+	position: absolute;
+	top: 0px;
+	left: 83px;
+}
+#main .main02 .tab .tr2 .p2 img{
+	width: 80px;
+	height: 80px;
+}
+#main .main02 .tab .tr2 .p3{
+	position: absolute;
+	top: 30px;
+	left: 183px;
+}
+#main .main02 .tab .tr2 .p4{
+	position: absolute;
+	top: 30px;
+	left: 813px;
+}
+#main .main02 .tab1{
+	background: #f8f8f8;
+	height: 120px;
+}
+#main .main02 .tab1 .td1{
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+#main .main02 .tab1 .td2{
+	position: absolute;
+	top: 13px;
+	left: 0px;
+}
+#main .main02 .tab1 .td3{
+	position: absolute;
+	top: 13px;
+	left: 50px;
+}
+#main .main02 .tab1 .td4{
+	font-size: 16px;
+}
+#main .main02 .tab1 .td4 .i3 span{
+	color: #E2231A;
+}
+#main .main02 .tab1 .td4 ul{
+	width: 200px;
+}
+#main .main02 .tab1 .td4 .i1{
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+#main .main02 .tab1 .td4 .i2{
+	position: absolute;
+	top: 40px;
+	right: 13px;
+}
+#main .main02 .tab1 .td4 .i3{
+	position: absolute;
+	top: 67px;
+	right: 13px;
+}
+.bc_probtn a {
+    float: right;
+    width: 160px;
+    height: 38px;
+    line-height: 38px;
+    background: #e2231a;
+    border: 1px solid #d9d8d6;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#wupin {
+	font-size: 14px;
+	width: 1200px;
+	position: relative;
+	top: -11px;
+	/*display: none;*/	
+}
+
+#wupin div {
+	height: 140px;
+	/*border: 1px solid;*/
+	float: left;
+	border-top: 1px solid #D9D8D6;
+	border-bottom: 1px solid #D9D8D6;
+}
+
+#wupin .lie01 {
+	position: relative;
+	border-left: 1px solid #D9D8D6;
+	width: 40px;
+}
+
+#wupin .lie01 span {
+	position: absolute;
+	top: 50px;
+	left: 13px;
+}
+
+#wupin .lie02 {
+	position: relative;
+	width: 422px;
+}
+#wupin .lie02 a:hover{
+	color: #E2231A;
+}
+#wupin .lie02 .img01 {
+	font-size: 12px;
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+#wupin .lie02 .guige {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+#wupin .lie03 {
+	position: relative;
+	width: 163px;
+}
+#wupin .lie03 .td1 {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+#wupin .lie04 {
+	position: relative;
+	width: 152px;
+}
+
+#wupin .lie05 {
+	width: 152px;
+	position: relative;
+}
+
+#wupin .lie05 .pro_num {
+	height: 16px;
+}
+
+#wupin .lie06 {
+	position: relative;
+	width: 152px;
+}
+
+#wupin .lie06 .td2 {
+	position: absolute;
+	top: 50px;
+	left: 55px;
+	color: #E2231A;
+}
+
+#wupin .lie07 {
+	position: relative;
+	width: 117px;
+	border-right: 1px solid #D9D8D6;
+}
+
+#wupin .lie07 .td3 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#wupin  a{
+	color: black;
+}

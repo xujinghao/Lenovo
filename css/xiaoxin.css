@@ -1,0 +1,828 @@
+.limove_opacity {
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+.limove_opacity:hover {
+	box-shadow: 0px 0px 30px #505050;
+	/*CSS3 shadow: 30px blurred shadow all around image*/
+	-webkit-box-shadow: 0px 0px 30px #505050;
+	/*Safari shadow version*/
+	-moz-box-shadow: 0px 0px 30px #505050;
+	/*Mozilla shadow version*/
+	opacity: 1;
+}
+
+.lunbo_box {
+	width: 100%;
+	height: 450px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+
+.lunbo {
+	width: 1422px;
+	height: 450px;
+	margin: 0px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.lunbo .lunbo_ul {
+	width: auto;
+	height: 450px;
+	position: absolute;
+	left: 0;
+}
+
+.lunbo_li {
+	width: 1422px;
+	height: 450px;
+	text-align: center;
+	float: left;
+}
+
+.lunbo_img {
+	width: 1422px;
+	height: 450px;
+}
+
+.prev {
+	position: absolute;
+	left: 3%;
+	top: 50%;
+	margin-top: -25px;
+	display: none;
+	width: 32px;
+	height: 40px;
+	background-image: url(../img/Lenovo_xiaoxin/192d2d70-23fc-4389-8404-fc33348c6b27_1.png);
+	background-position: -110px 5px;
+	opacity: 0.5;
+}
+
+.next {
+	position: absolute;
+	left: auto;
+	right: 3%;
+	top: 50%;
+	margin-top: -25px;
+	display: none;
+	width: 32px;
+	height: 40px;
+	background-image: url(../img/Lenovo_xiaoxin/192d2d70-23fc-4389-8404-fc33348c6b27_1.png);
+	background-position: 8px 5px;
+	opacity: 0.5;
+}
+/*选项条*/
+.nav {
+	position: absolute;
+	z-index: 999;
+	bottom: 0;
+	top: 386px;
+	left: 50%;
+	width: 1212px;
+	height: 64px;
+	text-align: center;
+	margin-left: -606px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav_li {
+	width: 96px;
+	height: 64px;
+	display: inline-block;
+	padding: 0 65px;
+}
+
+.nav_li .cur {
+	display: block;
+	position: relative;
+	height: 100%;
+	padding: 0 8px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.nav_li .cur .line {
+	position: absolute;
+	display: none;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: #fff;
+}
+/*左侧定位*/
+.rightbar {
+	width: 36px;
+	height: 166px;
+	display: none;
+	border-top: 1px solid #e6e6e6;
+	position: fixed;
+	z-index: 9999;
+	right: 50%;
+	top: 48%;
+	margin-right: -650px;
+	margin-top: -115px;
+}
+
+.rightbar_hover {
+	width: 36px;
+	height: 35px;
+}
+
+.rightbar .icon_block {
+	background-color: #fff;
+	display: block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	color: #fff;
+	text-indent: -9999px;
+}
+
+.rightbar .myicon_hotline {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -4px -485px;
+}
+
+.rightbar .myicon_ask {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -49px -485px;
+}
+
+.rightbar .myicon_stores {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -98px -486px;
+}
+
+.rightbar .myicon_teasing {
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -192px -486px;
+}
+
+.rightbar .totop {
+	display: block;
+	width: 36px;
+	height: 22px;
+	margin-top: 4px;
+	text-indent: -9999px;
+	background-image: url(../img/Lenovo_home/icons_sprit.png);
+	background-position: -254px -491px;
+}
+
+.boss {
+	width: 100%;
+	height: auto;
+}
+
+
+/*小新铺子*/
+.content_box{
+	width: 100%;
+	height: auto;
+	background-color: #F5F5F5;
+	display: block;
+	text-align: center;
+}
+.piece {
+	width:1212px;
+	height: 5720px;	
+	position: relative;
+	display: block;
+	margin: 0px auto;
+}
+
+.laptop {
+	width: 1212px;
+	height: 1298px;
+	margin: 0px auto;
+}
+
+.item-title {
+	height: 84px;
+	font-weight: normal;
+	line-height: 84px;
+	font-size: 24px;
+	color: #0b0b0b;
+}
+
+.banner-box .img1 {
+	width: 100%;
+	height: 392px;
+	display: block;
+}
+
+.laptop-list {
+	position: relative;
+	width: 1232px;
+	height: 820px;
+	margin: -9px;
+}
+
+.laptop-list .btn_cntr_in_piece {
+	width: 596px;
+	height: 392px;
+	float: left;
+	margin: 9px;
+	border-radius: 3px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.zhoubian {
+	width: 1212px;
+	height: 2508px;
+	margin: 0 auto;
+}
+
+.zhoubian-main {
+	width: 1212px;
+}
+
+.zhoubian-top .ad {
+	width: 800px;
+	height: 392px;
+	float: left;
+	margin-bottom: 18px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.zhoubian-top .ad .img {
+	width: 800px;
+	height: 392px;
+}
+
+.small {
+	width: 392px;
+	height: 392px;
+	float: left;
+	margin: 0 0 18px 18px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.small .img-box {
+	width: 240px;
+	height: 240px;
+	margin: 24px auto 0;
+	overflow: hidden;
+}
+
+.small .img-box img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.small h6 {
+	line-height: 40px;
+	font-size: 24px;
+	color: #434343;
+	width: 312px;
+	height: 40px;
+	overflow: hidden;
+	font-weight: normal;
+	padding: 0px 40px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.small p {
+	line-height: 24px;
+	font-size: 14px;
+	color: #7c7c7c;
+	padding: 0px 40px;
+}
+
+.small p span {
+	line-height: 40px;
+	font-size: 30px;
+	color: #ed4a39;
+}
+
+.prolist {
+	width: 1212px;
+}
+
+.prolist_ul {
+	width: 1230px;
+	margin: -18px;
+}
+
+.service {
+	width: 1212px;
+	margin: 0px auto;
+}
+
+.service_main_ul {
+	width: 1230px;
+	margin-left: -18px;
+}
+
+.itemTitle {
+	width: 100%;
+	height: 84px;
+	font-weight: normal;
+	line-height: 84px;
+	font-size: 24px;
+	color: #0b0b0b;
+	text-align: left;
+	clear: all;
+}
+
+.service .banner-box {
+	width: 1212px;
+	margin: 0 auto 20px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.service .banner-box img {
+	display: block;
+	width: 100%;
+}
+
+.service_main_small {
+	width: 392px;
+	height: 392px;
+	float: left;
+	margin: 0 0 18px 18px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.service_main_small .img-box {
+	width: 240px;
+	height: 240px;
+	margin: 24px auto 0;
+	overflow: hidden;
+}
+
+.service_main_small .img-box img {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.service_main_small h6 {
+	line-height: 40px;
+	font-size: 24px;
+	color: #434343;
+	font-weight: normal;
+	padding: 0px 40px;
+}
+
+.service_main_small p {
+	line-height: 24px;
+	font-size: 14px;
+	color: #7c7c7c;
+	padding: 0px 40px;
+}
+
+.service_main_small p span {
+	line-height: 40px;
+	font-size: 30px;
+	color: #ed4a39;
+}
+
+.qr-code {
+	width: 1212px;
+	background-color: #f9f9f9;
+	margin: 18px auto 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.qr-code ul {
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.qr-code ul li {
+	width: 86px;
+	margin: 0 25px;
+	display: inline-block;
+	text-align: center;
+}
+
+.qr-code ul li img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.qr-code ul li p {
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.share-fixed {
+	position: fixed;
+	z-index: 10000;
+	left: 50%;
+	bottom: 60px;
+	margin-left: 540px;
+	width: 120px;
+	height: 142px;
+}
+
+.share-fixed .c2c_share {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/Lenovo_xiaoxin/90c157d9-a552-44b4-989f-97d2907c0974_1.png);
+}
+
+.c2c_share_p {
+	position: absolute;
+	bottom: 6px;
+	display: block;
+	width: 120px;
+	height: 24px;
+	line-height: 24px;
+	text-indent: 30px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/*小新故事*/
+
+.story-page {
+	width: 1212px;
+	height: 2812px;
+	position: relative;
+	display: none;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.step {
+	width: 1212px;
+	margin: 0 auto;
+	color: #0a0a0a;
+}
+
+.title .f1 {
+	height: 84px;
+	line-height: 84px;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.video_cont {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.player {
+	width: 100%;
+	height: 600px;
+}
+
+.player_yuncloud {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.stroy-more-video {
+	width: 1212px;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.stroy-more-video li {
+	float: left;
+}
+
+.stroy-more-video ul .li1 {
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.stroy-more-video ul .li2 {
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.stroy-more-video ul .li2>a {
+	padding: 3px 5px;
+	background-color: #5A8BD5;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.story {
+	width: 1212px;
+	height: 1292px;
+	margin: 0px auto;
+}
+
+.story .item {
+	padding-bottom: 30px;
+	float: left;
+}
+
+.story .item .f2 {
+	float: left;
+}
+
+.story .item .f2 img {
+	width: 192px;
+	height: 272px;
+}
+
+.story .txt-box {
+	width: 964px;
+	height: 240px;
+	margin-left: 54px;
+	float: left;
+}
+
+.story .txt-box h3 {
+	font-size: 20px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #5b5b5b;
+	width: 964px;
+	font-weight: bold;
+}
+
+.story .txt-box p {
+	font-size: 20px;
+	max-height: 200px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #5b5b5b;
+}
+
+.tuan {
+	width: 1212px;
+	margin: 0 auto;
+	color: #0a0a0a;
+}
+
+.tuan .img_con img {
+	width: 1213px;
+	height: auto;
+	margin-bottom: 45px;
+}
+
+.tuan p {
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	color: #5b5b5b;
+	margin-bottom: 55px;
+}
+
+
+/*小新特权*/
+
+.privilege-page {
+	width: 1212px;
+	height: 1300px;
+	position: relative;
+	display: none;
+	margin: 0px auto;
+}
+
+.privilege {
+	width: 1212px;
+	margin: 0 auto;
+}
+
+.txt_content {
+	margin-bottom: 50px;
+}
+
+.txt_content .describe {
+	font-size: 20px;
+	line-height: 40px;
+	text-indent: 2em;
+	margin-bottom: 33px;
+	color: #5b5b5b;
+}
+
+.other {
+	width: 1212px;
+	height: 887px;
+	color: #0A0A0A;
+	margin: 0px auto;
+}
+
+.other .div1 {
+	width: 1212px;
+	height: 262px;
+}
+
+.other .div1 .photo {
+	width: 203px;
+	height: 242px;
+	margin-top: 20px;
+	float: left;
+}
+
+.other .div1 .div1-txt {
+	padding-left: 174px;
+	float: left;
+}
+
+.other .div1 .div1-txt>h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 76px;
+	height: 76px;
+	color: #5b5b5b;
+}
+
+.other .div1 .photo_cont {
+	width: 465px;
+	font-size: 20px;
+	line-height: 39px;
+	font-weight: 400;
+	color: #5b5b5b;
+}
+
+.other .div1 .photo_cont>a {
+	color: #0e0ead;
+	font-size: 16px;
+}
+
+
+/*div2*/
+
+.other .div2 {
+	width: 1212px;
+	height: 262px;
+	margin-bottom: 45px;
+	margin-top: 45px;
+}
+
+.other .div2 .aimg {
+	margin-right: 20px;
+}
+
+.other .div2 .photo {
+	width: 275px;
+	height: 211px;
+	margin-top: 31px;
+	float: right;
+}
+
+.other .div2 .div2-txt {
+	padding-right: 30px;
+	margin-left: 380px;
+	float: left;
+}
+
+.other .div2 .div2-txt>h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 76px;
+	height: 76px;
+	color: #5b5b5b;
+}
+
+.other .div2 .yun_cont {
+	width: 490px;
+	font-size: 20px;
+	line-height: 39px;
+	font-weight: 400;
+	color: #5b5b5b;
+}
+
+.other .div2 .photo_cont>a {
+	color: #0e0ead;
+	font-size: 16px;
+}
+
+
+/*div3*/
+
+.other .div3 {
+	width: 1212px;
+	height: 262px;
+}
+
+.other .div3 .photo {
+	width: 350px;
+	height: auto;
+	float: left;
+}
+
+.other .div3 .div3-txt {
+	padding-left: 32px;
+	float: left;
+}
+
+.other .div3 .div3-txt>h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 76px;
+	height: 76px;
+	color: #5b5b5b;
+}
+
+.other .div3 .photo_cont {
+	width: 482px;
+	font-size: 20px;
+	line-height: 39px;
+	font-weight: 400;
+	color: #5b5b5b;
+}
+
+.other .div3 .photo_cont>a {
+	color: #0e0ead;
+	font-size: 16px;
+}
+
+
+/*小新社团*/
+
+.community-page {
+	width: 1212px;
+	height: auto;
+	position: relative;
+	display: none;
+	margin: 0px auto;
+}
+
+.fans {
+	width: 1212px;
+	height: 644px;
+	margin: 0px auto;
+}
+
+.fans .txt-content {
+	width: 1212px;
+	height: 560px;
+	margin-bottom: 53px;
+}
+
+.fans .txt-content .aimg {
+	width: 1212px;
+	height: 378px;
+	margin-bottom: 33px;
+}
+
+.fans .txt-content p {
+	width: 915px;
+	margin: 0 auto;
+	line-height: 37px;
+	font-size: 20px;
+	text-align: center;
+	color: #5b5b5b;
+}
+
+.goto a {
+	color: #0e0ead;
+	font-size: 16px;
+}
+
+.fans_activity {
+	width: 1212px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.fans_activity .img-list {
+	margin-right: -40px;
+	margin-bottom: 20px;
+}
+
+.fans_activity .img-item {
+	margin-right: 40px;
+	margin-bottom: 40px;
+	width: 585px;
+	height: auto;
+	float: left;
+}
+.fans_activity .img-items{
+	width: 585px;
+	height: 385px;
+}
+
